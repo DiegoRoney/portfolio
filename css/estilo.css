@@ -3,3 +3,27 @@
 
 /**/
 
+body {
+    min-height: 75rem;
+    padding-top: 7.5rem;
+
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+   background-color: blueviolet; 
+   
+    
+  
+  }
+  
+  #menu {
+    background-color: rgba(0, 0, 0, 0) !important;
+    padding: 1.5rem 1rem;
+    transition: all 500ms linear;
+  }
+  #menu.ativo {
+    background-color: rgba(0,0,0,0.8) !important;
+    padding: .5rem 1rem;
+  }
+
+  
