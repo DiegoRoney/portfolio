@@ -66,7 +66,7 @@ body {
 
 .banner img {
   width: 100%;
-  margin-top: 0;
+  margin-top: 30px;
 }
 
 .banner-texto {
@@ -106,13 +106,14 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 15px;
+  
 
 }
 
 /**/
 .cabeçalho-imagem {
   height: 60px;
-  margin-right: 12px;
+  margin-right: 10px;
 }
 
 .cabeçalho-texto {
@@ -142,15 +143,15 @@ body {
 
 
 
-
 .msg {
-  padding: 15px;
+  margin-top:0;
+  padding: 25px;
   background-color: rgba(0, 0, 255, 0);
-  margin-top: 0;
+  margin: top 0;
   background-color: black;
   color: aliceblue;
   width: 100%;
-  height: 260px;
+  height: 280px;
   font-family: 'Courier New', Courier, monospace;
 }
 
