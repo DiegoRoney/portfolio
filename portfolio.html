@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Designer Web">
+
+    <script src="js/page.js"></script>
+    <!---->
+
+    <link rel="stylesheet" type="text/css" media="screen"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link href="album.css" rel="stylesheet">
+
+    <!-- Estilos customizados para esse template -->
+
+
+
+
+    <!---->
+
+
+    <!---->
+
+    <title>Portfólio </title>
+
+</head>
+
+
+<!--<body style="background-image: url(imagens/banner1.jpg);">-->
+
+<body>
+
+    <script>
+        $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+            if (scroll >= 40) { // se rolar 40px ativa o evento
+                $("#menu").addClass("ativo"); //coloca a classe "ativo" no id=menu
+            } else {
+                $("#menu").removeClass("ativo"); //se for menor que 40px retira a classe "ativo" do id=menu
+            }
+        });
+    </script>
+
+    <header id="menu" class="cabeçalho fixed-top ">
+
+        <div>
+
+            <a href="https://diegoroney.github.io/Diego/index.html"><img class="cabeçalho-redes-icon"
+                    src="icons/icon-diego.png"></a>
+            <h2 class="cabeçalho-texto navbar-brand"> DIEGO </h2>
+
+        </div>
+
+        <nav class="cabeçalho-redes">
+            <!--
+            <a href="https://diegoroney.github.io/Diego/index.html"><img class="cabeçalho-redes-icon"
+                    src="icons/icon-diego.png"></a>
+
+            <a href="https://github.com/DiegoRoney/"><img class="cabeçalho-redes-icon" src="icons/icon-github.png"></a>
+
+            <a href="https://www.instagram.com/rbs_diego/"><img class="cabeçalho-redes-icon"
+                    src="icons/icon-instagram.png"></a>
+      -->
+            <ul>
+                <li><a href="portfolio.html">PORTFÓLIO</a></li>
+
+                <li> <a href="https://diegoroney.github.io/Diego/index.html">SOBRE</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!--nac do header-->
+
+
+
+
+    <!---->
+    <div class="banner">
+
+
+
+        <img src="imagens/banner2.jpg" alt="banner">
+
+
+    </div>
+    <!---->
+
+
+
+    <main role="main">
+
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">Web Design</h1>
+                <p class="lead text-muted">Algo curto e direto, sobre a coleção abaixo (conteúdo, criador e etc). Faça
+                    com que seja curto e legal, mas não tão curto ao ponto de as pessoas pularem ele.</p>
+                <p>
+                    <a href="#" class="btn btn-primary my-2">Contato</a>
+                  
+                </p>
+            </div>
+        </section>
+
+        <div class="album py-5 bg-dark">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top"
+                                data-src="imagens/webdesigner/cartilha.png" alt="Card image cap">
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Este é um card maior e que suporta texto abaixo, como uma
+                                    introdução mais natural ao conteúdo adicional.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top"
+                                data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text"></p>
+                                <p class="card-text">Este é um card maior e que suporta texto abaixo, como uma
+                                    introdução mais natural ao conteúdo adicional. No entanto, esse conteúdo é um pouco
+                                    maior.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top"
+                                data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Este é um card maior e que suporta texto abaixo, como uma
+                                    introdução mais natural ao conteúdo adicional. No entanto, esse conteúdo é um pouco
+                                    maior.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top"
+                                data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Este é um card maior e que suporta texto abaixo, como uma
+                                    introdução mais natural ao conteúdo adicional. No entanto, esse conteúdo é um pouco
+                                    maior.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top"
+                                data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Este é um card maior e que suporta texto abaixo, como uma
+                                    introdução mais natural ao conteúdo adicional. No entanto, esse conteúdo é um pouco
+                                    maior.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top"
+                                data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Este é um card maior e que suporta texto abaixo, como uma
+                                    introdução mais natural ao conteúdo adicional. No entanto, esse conteúdo é um pouco
+                                    maior.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top"
+                                data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Este é um card maior e que suporta texto abaixo, como uma
+                                    introdução mais natural ao conteúdo adicional. No entanto, esse conteúdo é um pouco
+                                    maior.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top"
+                                data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Este é um card maior e que suporta texto abaixo, como uma
+                                    introdução mais natural ao conteúdo adicional. No entanto, esse conteúdo é um pouco
+                                    maior.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top"
+                                data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Este é um card maior e que suporta texto abaixo, como uma
+                                    introdução mais natural ao conteúdo adicional. No entanto, esse conteúdo é um pouco
+                                    maior.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">Voltar ao topo</a>
+            </p>
+            <p>Este exemplo de álbum é &copy; Bootstrap, mas, por favor, baixe e customize por conta própria.</p>
+            <p>Novo no Bootstrap? <a href="../../">Visite a página principal</a> ou leia nosso guia <a
+                    href="../../getting-started/">getting started</a>.</p>
+        </div>
+    </footer>
+
+    <!-- Principal JavaScript do Bootstrap
+              ================================================== -->
+    <!-- Foi colocado no final para a página carregar mais rápido -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script>
+        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')
+    </script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+</body>
+
+
+</body>
+
+
+</body>
