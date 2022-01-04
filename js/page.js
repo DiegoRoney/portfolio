@@ -8,3 +8,5 @@ $(window).scroll(function() {
         $("#menu").removeClass("ativo"); //se for menor que 40px retira a classe "ativo" do id=menu
       }
     });
+
+    
