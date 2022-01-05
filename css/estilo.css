@@ -99,13 +99,17 @@ body {
 
 
 }
-/*
-main{
+
+#main-port{
   margin-top: -750px;
 }
-*/
+
+#main-sobre {
+  margin-top: -550px;
+}
+
 section{
-  margin-top: 370px;
+  margin-top: 570px;
 }
 
 .lead{
