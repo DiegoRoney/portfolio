@@ -91,13 +91,19 @@
 
     <!---->
     <!---->
-    <div class="banner">
-        <!--<img src="imagens/banner1-c.jpg" alt="banner">-->
-        <img class="img-fluid" src="imagens/banner2-c.jpg" srcset="imagens/banner2-c.jpg  400w,
-imagens/banner2-c.jpg 700w, imagens/banner2-g.jpg 1200w" sizes="(min-width:1200px) 1200px,
-(min-width: 700px)  700px,  400px">
+ <!---->
 
-    </div>
+ <div class="banner">
+    <picture>
+
+        <source media="(max-width: 480px)" srcset="imagens/banner2-c.jpg">
+        <source media="(max-width: 768px)" srcset="imagens/banner2-c.jpg">
+        <source media="(min-width: 769px)" srcset="imagens/banner2-g.jpg">
+
+        <img src="imagens/banner1-c.jpg" alt="banner">
+    </picture>
+</div>
+<!---->
     <!---->
 <main id="main-port" role="main">
 
@@ -119,7 +125,7 @@ imagens/banner2-c.jpg 700w, imagens/banner2-g.jpg 1200w" sizes="(min-width:1200p
 
                 <div class="row">
                     <!---->
-                    <div class="col-md-5">
+                    <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
                             <img class="card-img-top" src="imagens/webdesigner/cartilha.png" alt="Card image cap">
                             <div class="card-body">
@@ -137,7 +143,7 @@ imagens/banner2-c.jpg 700w, imagens/banner2-g.jpg 1200w" sizes="(min-width:1200p
                     <!---->
 
                     <!---->
-                    <div class="col-md-5">
+                    <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
                             <img class="card-img-top" src="imagens/webdesigner/citrus.png" alt="Card image cap">
                             <div class="card-body">
@@ -155,7 +161,7 @@ imagens/banner2-c.jpg 700w, imagens/banner2-g.jpg 1200w" sizes="(min-width:1200p
                     <!---->
 
                     <!---->
-                    <div class="col-md-5">
+                    <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
                             <img class="card-img-top" src="imagens/webdesigner/carfix.png" alt="Card image cap">
                             <div class="card-body">

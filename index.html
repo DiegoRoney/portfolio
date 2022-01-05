@@ -86,13 +86,19 @@
 
 
         <!---->
-        <div class="banner">
-            <!--<img src="imagens/banner1-c.jpg" alt="banner">-->
-            <img class="img-fluid" src="imagens/banner1-c.jpg" srcset="imagens/banner1-c.jpg  400w,
-  imagens/banner1-g.jpg 700w, imagens/banner1-g.jpg 1200w" sizes="(min-width:1200px) 1200px,
-        (min-width: 700px)  700px,  400px">
+     <!---->
 
-        </div>
+     <div class="banner">
+        <picture>
+
+            <source media="(max-width: 480px)" srcset="imagens/banner1-c.jpg">
+            <source media="(max-width: 768px)" srcset="imagens/banner1-c.jpg">
+            <source media="(min-width: 769px)" srcset="imagens/banner1-g.jpg">
+
+            <img src="imagens/banner1-c.jpg" alt="banner">
+        </picture>
+    </div>
+    <!---->
         <!---->
 
 
