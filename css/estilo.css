@@ -104,8 +104,10 @@ body {
   margin-top: -750px;
 }
 
-#main-sobre {
+#main-sobre, a {
   margin-top: -750px;
+  color: rgb(0, 0, 0);
+  font-size: larger;
 }
 
 section{
