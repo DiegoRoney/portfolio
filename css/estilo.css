@@ -120,13 +120,24 @@ body {
 @media screen and (min-width: 968px) {
   #main-sobre {
 
-    margin-top: -50px;
+    margin-top: -60px;
+
 
 
 
   }
 }
 
+@media screen and (min-width: 1024px) {
+  #main-sobre {
+
+    margin-top: -800px;
+
+
+
+
+  }
+}
 
 
 section {
