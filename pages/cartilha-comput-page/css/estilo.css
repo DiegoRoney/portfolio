@@ -275,8 +275,15 @@ body {
     margin-top: -40px;
     justify-content: space-between;
     justify-content: center;
-
     gap: 15px;
+
+}
+
+.card-title {
+    font-size: .8rem;
+    color: white;
+    text-align: center;
+
 }
 
 /* as cores dos itens em serviços, 

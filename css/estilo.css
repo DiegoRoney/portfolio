@@ -38,10 +38,11 @@ li {
 }
 
 /**/
-a{
+a {
   text-decoration: none;
   color: rgb(255, 187, 0);
 }
+
 a:hover {
   color: #696969;
   text-decoration: none;
@@ -50,7 +51,7 @@ a:hover {
 
 body {
 
-  
+
   padding-top: 6px;
 
 
@@ -59,8 +60,8 @@ body {
 .banner {
   margin-top: -15px;
   width: 100%;
-  
-  
+
+
   /*
   
   overflow: hidden;
@@ -80,7 +81,7 @@ body {
   width: 100%;
   height: 100vh;
 
-  
+
 }
 
 
@@ -97,42 +98,53 @@ body {
 
 }
 
-#main-port{
-  margin-top: -700px;
+#main-port {
+  margin-top: -500px;
 }
 
 #main-sobre {
-  
-  
+
+
   color: rgb(0, 0, 0);
   font-size: larger;
 }
 
 @media screen and (max-width: 967px) {
   #main-sobre {
-    margin-top: -750px;
-      
+    margin-top: -600px;
+
 
   }
 }
 
 @media screen and (min-width: 968px) {
-  #main-sobre{
-     
-    margin-top: -50px;
-      
+  #main-sobre {
+
+    margin-top: -60px;
+
+
+
+
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #main-sobre {
+
+    margin-top: -800px;
+
+
 
 
   }
 }
 
 
-
-section{
+section {
   margin-top: 50px;
 }
 
-.lead{
+.lead {
   font-size: 1.2rem;
   font-weight: bold;
   color: #ffffff;
@@ -161,7 +173,7 @@ section{
   align-items: center;
   justify-content: space-between;
   padding: 15px;
-  
+
 
 }
 
@@ -199,9 +211,9 @@ section{
 
 
 .msg {
-  margin-top:-250px;
-  padding: 15px;  
-  
+  margin-top: -250px;
+  padding: 15px;
+
   background-color: rgb(24, 24, 24);
   color: aliceblue;
   width: 100%;
@@ -259,22 +271,22 @@ section{
   flex-direction: row;
   padding: 15px;
   color: black;
-  
+
   width: 100%;
   height: 100%;
   background-color: rgb(255, 174, 0);
 
 }
 
-.more-texto{
-  width: 100%; 
-  
+.more-texto {
+  width: 100%;
+
   color: black;
   font-size: .8rem;
   font-weight: bold;
   text-transform: uppercase;
   background-color: rgb(255, 255, 255);
-  
+
 }
 
 
@@ -307,9 +319,9 @@ section{
 
 @media (max-width:767px) {
   .photo-gallery h2 {
-      margin-bottom: 25px;
-      padding-top: 25px;
-      font-size: 24px;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
   }
 }
 

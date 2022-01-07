@@ -23,23 +23,11 @@
     <link href="album.css" rel="stylesheet">
     <!-- Bootstrap core CSS -->
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Estilos customizados para esse template -->
-
-
-
-
     <!---->
-
-
     <!---->
-
     <title>Portfólio </title>
 
 </head>
-
-
-<!--<body style="background-image: url(imagens/banner1.jpg);">-->
 
 <body>
 
@@ -57,69 +45,49 @@
     <header id="menu" class="cabeçalho fixed-top ">
 
         <div>
-
             <a href="index.html"><img class="cabeçalho-redes-icon" src="icons/icon-diego.png">
                 <h2 class="cabeçalho-texto navbar-brand"> DIEGO </h2>
             </a>
-
         </div>
 
         <nav class="cabeçalho-redes">
-            <!--
-            <a href="https://diegoroney.github.io/Diego/index.html"><img class="cabeçalho-redes-icon"
-                    src="icons/icon-diego.png"></a>
 
-            <a href="https://github.com/DiegoRoney/"><img class="cabeçalho-redes-icon" src="icons/icon-github.png"></a>
-
-            <a href="https://www.instagram.com/rbs_diego/"><img class="cabeçalho-redes-icon"
-                    src="icons/icon-instagram.png"></a>
-      -->
             <ul>
                 <li><a href="portfolio.html">PORTFÓLIO</a></li>
 
                 <li> <a href="sobre.html">SOBRE</a></li>
             </ul>
-
         </nav>
 
     </header>
+    <!---->
 
-    <!--nav do header-->
-
-
-
-
+    <div class="banner">
+        <picture>
+            <source media="(max-width: 480px)" srcset="imagens/banner2-c.jpg">
+            <source media="(max-width: 768px)" srcset="imagens/banner2-c.jpg">
+            <source media="(min-width: 769px)" srcset="imagens/banner2-g.jpg">
+            <img src="imagens/banner1-c.jpg" alt="banner">
+        </picture>
+    </div>
     <!---->
     <!---->
- <!---->
-
- <div class="banner">
-    <picture>
-
-        <source media="(max-width: 480px)" srcset="imagens/banner2-c.jpg">
-        <source media="(max-width: 768px)" srcset="imagens/banner2-c.jpg">
-        <source media="(min-width: 769px)" srcset="imagens/banner2-g.jpg">
-
-        <img src="imagens/banner1-c.jpg" alt="banner">
-    </picture>
-</div>
-<!---->
-    <!---->
-<main id="main-port" role="main">
-
+    <main id="main-port" role="main">
         <section class="jumbotron text-center">
             <div class="container">
-                <img src="icons/d-diego.png" class="cabeçalho-redes-icon" alt="">
+                <!--//todo <img src="icons/d-diego.png" class="cabeçalho-redes-icon" alt="">-->
                 <p class="lead">Conheça um pouco do meu trabalho</p>
+                <a href="portfolio.html#ancora-port"> <img src="icons/arrow_down.png" class="cabeçalho-redes-icon"
+                        alt=""></a>
                 <!--
                 <p>
                     <a href="#" class="btn btn-primary my-2">Main call to action</a>
                     <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-                </p>
-            -->
+                </p> -->
             </div>
         </section>
 
+        <div id="ancora-port"></div>
         <div class="album py-5 bg-light">
             <div class="container">
 
@@ -133,7 +101,8 @@
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <a type="button" class="btn btn-sm btn-outline-secondary"
-                                            class="btn btn btn-warning" href="pages/cartilha-comput-page/index.html" role="button">VER MAIS</a>
+                                            class="btn btn btn-warning" href="pages/cartilha-comput-page/index.html"
+                                            role="button">VER MAIS</a>
                                     </div>
                                     <small class="text-muted">31/12/2021</small>
                                 </div>
@@ -151,7 +120,8 @@
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <a type="button" class="btn btn-sm btn-outline-secondary"
-                                            class="btn btn btn-warning" href="pages/Jaimes_Citrus/index.html" role="button">VER MAIS</a>
+                                            class="btn btn btn-warning" href="pages/Jaimes_Citrus/index.html"
+                                            role="button">VER MAIS</a>
                                     </div>
                                     <small class="text-muted">22/12/2021</small>
                                 </div>
@@ -185,19 +155,16 @@
 
     </main>
 
-
-
     <footer>
 
         <div class="footer-redes text-muted">
             <div class="container">
 
+                <p> <a class="text-white" href="https://diegoroney.github.io/portfolio/">© 2022 Copyright: DIEGOR</a>
+                </p>
 
-                <p>  <a class="text-white" href="https://diegoroney.github.io/portfolio/">© 2022 Copyright: DIEGOR</a></p>
-               
 
                 <a href="index.html"><img class="cabeçalho-redes-icon" src="icons/icon-diego.png"></a>
-
                 <a href="https://github.com/DiegoRoney/"><img class="cabeçalho-redes-icon"
                         src="icons/icon-github.png"></a>
 
@@ -208,13 +175,11 @@
                         src="icons/tel.png"></a>
 
                 <p class="float-right">
-                    <a href="#">Voltar ao topo</a>
+                    <a href="#">topo<img src="icons/arrow_top.png" class="cabeçalho-redes-icon" alt=""></a>
                 </p>
 
             </div>
-
         </div>
-
     </footer>
 
     <!-- Principal JavaScript do Bootstrap
@@ -230,9 +195,5 @@
     <script src="../../dist/js/bootstrap.min.js"></script>
     <script src="../../assets/js/vendor/holder.min.js"></script>
 </body>
-
-
-</body>
-
 
 </html>
