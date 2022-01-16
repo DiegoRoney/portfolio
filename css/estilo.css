@@ -40,7 +40,7 @@ li {
 /**/
 a {
   text-decoration: none;
-  color: rgb(255, 102, 0);
+  color: rgb(255, 72, 0);
 }
 
 a:hover {
@@ -280,13 +280,16 @@ section {
 }
 
 .more-texto {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
   width: 100%;
-
+  height: 80px;
   color: black;
   font-size: .8rem;
   font-weight: bold;
   text-transform: uppercase;
-  background-color: #cecece;
+  background-color: #9c9c9c;
 
 }
 
@@ -313,5 +316,8 @@ section {
   height: 100%;
   background-color: rgb(82, 82, 82);
 }
+
+/**/
+
 
 /**/
