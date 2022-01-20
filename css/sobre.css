@@ -87,19 +87,23 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
+    
+    
+   
 }
 
 .header-texto {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.952);
+    border-radius: 20px;
     margin-top: 90px;
     justify-content: center;
     align-content: center;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    padding: 1px;
+    padding: 20px;
     color: #fff;
-    width: 300px;
+    width: 400px;
     text-align: left;
     font-family: 'Oswald',
         sans-serif;
