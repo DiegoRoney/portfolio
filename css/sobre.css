@@ -32,7 +32,7 @@
   }
   
   body {  
-    padding-top: 6px;  
+    padding-top: 0px;  
   }
   
 
@@ -269,7 +269,7 @@ textarea:focus {
 
   .footer-redes {
     position: absolute;
-    margin-top: 20px;
+   
     padding: 15px;
     color: rgb(255, 255, 255);
     width: 100%;
