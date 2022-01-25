@@ -319,6 +319,22 @@ section {
   color: black
   
 }
+.design-link{
+  background-color: #ecececd3;
+  color: rgb(0, 0, 0);
+  padding: 15px;  
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.design-link:hover{
+  background-color: #ffffffd3;
+  color: rgb(248, 0, 0);
+  padding: 15px;  
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
 .footer-redes {
   position: absolute;
