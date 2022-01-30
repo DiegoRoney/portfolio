@@ -93,8 +93,8 @@
 }
 
 .header-texto {
-    background-color: rgba(0, 0, 0, 0.952);
-    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.63);
+  border-radius: 25px;
     margin-top: 90px;
     justify-content: center;
     align-content: center;
@@ -102,12 +102,13 @@
     flex-direction: column;
     flex-wrap: nowrap;
     padding: 20px;
-    color: #fff;
-    width: 400px;
+    color: rgb(0, 0, 0);
+    width: 300px;
     text-align: left;
     font-family: 'Oswald',
         sans-serif;
     text-transform: uppercase;
+    backdrop-filter: blur(5px);
 
 }
 form,
