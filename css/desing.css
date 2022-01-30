@@ -81,7 +81,7 @@
     width: 100%;
     height: 100vh;
     /*deixar a imagem aqui*/
-    background: url(../imagens/design.jpg) no-repeat center;
+    background: url(../imagens/desing-bg.png) no-repeat center;
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
@@ -91,7 +91,7 @@
 }
 
 .header-texto {
-    background-color: rgba(0, 0, 0, 0.13);
+    background-color: #863e9e1c; 
     border-radius: 20px;
     margin-top: 90px;
     justify-content: center;
@@ -100,12 +100,13 @@
     flex-direction: column;
     flex-wrap: nowrap;
     padding: 20px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     width: 400px;
     text-align: left;
     font-family: 'Oswald',
         sans-serif;
     text-transform: uppercase;
+    backdrop-filter: blur(5px);
 
 }
 
