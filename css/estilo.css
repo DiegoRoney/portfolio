@@ -224,8 +224,8 @@ section {
 /**/
 
 
-.msg {
-  margin-top: -250px;
+.msg {  
+  font-size: 18px;
   padding: 15px;
   background-color: rgba(41, 41, 41, 0.089);
   color: aliceblue;
