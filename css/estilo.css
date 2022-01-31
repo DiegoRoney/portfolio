@@ -54,13 +54,7 @@ a:hover {
 }
 
 
-body {
 
-
-  padding-top: 6px;
-
-
-}
 .header-section {
   /*pegar toda a tela*/
   width: 100%;
@@ -72,7 +66,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: space-around;   
-  margin-top: -8px;
+ 
  
 }
 /*
