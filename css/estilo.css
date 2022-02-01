@@ -346,11 +346,12 @@ section {
   background-color: rgb(15, 15, 15);
   height:100%;
   color: rgb(231, 231, 231);
-  padding: 15px;
+  padding: 25px;
   display: flex;
   flex-wrap: wrap;
-  gap: 2px;
-  align-content: flex-start;
+  gap: 5px;
+  justify-content: space-around;
+  
   
 }
 .principal-ft a{
