@@ -271,6 +271,7 @@ textarea:focus {
 
 /*FOOTER*/
 .principal-ft{
+  margin-top: 20px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(15, 15, 15);
   height:100%;
