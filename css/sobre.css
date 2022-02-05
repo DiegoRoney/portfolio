@@ -102,7 +102,8 @@
     flex-wrap: nowrap;
     padding: 20px;
     color: rgb(0, 0, 0);
-    width: 300px;
+    width: 350px;
+    height: auto;
     text-align: left;
     font-family: 'Oswald',
         sans-serif;
