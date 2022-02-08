@@ -66,6 +66,7 @@ a:hover {
   flex-wrap: wrap;
   justify-content: space-around; 
   align-items: flex-end;
+  background-color: #99B4BF;
  
 }
 
@@ -151,13 +152,13 @@ section {
 
 
 #menu {
-  background-color: rgba(0, 0, 0, 0) !important;
+  background-color: #818c2b00 !important;
   padding: 1.5rem 1rem;
   transition: all 500ms linear;
 }
 
 #menu.ativo {
-  background-color: rgb(255, 124, 2) !important;
+  background-color: #ff7b00 !important;
   padding: .5rem 1rem;
 }
 
@@ -221,10 +222,10 @@ section {
   text-align: center;
   justify-content: space-between;
   padding: 15px;
-  color: rgb(0, 0, 0);
+  color: #ff7b00;
   width: 100%;
   height: auto;
-  background-color: #ffffff;
+  background-color: #0D0D0D;
   
 }
 
@@ -242,14 +243,13 @@ section {
   background-color: rgb(0, 0, 0);
 }
 
-/*
-.skill-texto {
-  width: 5%;
-  writing-mode: vertical-lr;
-  background-color: rgb(253, 143, 0);
+
+.skill-texto { 
+  
+  color:#ff7b00;
 
 }
-*/
+
 .barra {
 
   color: #fff;
@@ -273,7 +273,7 @@ section {
   color: black;
   width: 100%;
   height: 100%;
-  background-color: rgb(196, 196, 196);
+  background-color: #0D0D0D;
 
 }
 
@@ -283,11 +283,11 @@ section {
   align-items: center; 
   width: 100%;
   height: 120px;
-  color: black;
+  color: #ff7b00;
   font-size: .8rem;
   font-weight: bold;
   text-transform: uppercase;
-  background-color: #9c9c9c;
+  background-color: #000000;
 
 }
 .design-chamada{
@@ -332,15 +332,19 @@ section {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  align-items: stretch;
+  
   flex-direction: row;
   padding: 15px;
   color: black;
-  width: 100%;
+  
   height: 100%;
-  background-color: rgb(82, 82, 82);
+  background-color: rgb(12, 12, 12);
 }
-
+.working img{
+  width: 100%;
+  
+  
+}
 /**/
 
 
@@ -360,11 +364,11 @@ section {
   
 }
 .principal-ft a{
-  color: rgb(204, 204, 204);
+  color: #ffffff;
   text-decoration: none;
 }
 .principal-ft a:hover{
-  color: rgb(255, 97, 6);
+  color: #ff7b00;
 }
 .principal-ft img{
   width: 60px;

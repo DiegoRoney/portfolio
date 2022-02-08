@@ -1,0 +1,44 @@
+/* Color Theme Swatches in Hex */
+.UI/UX-1-hex { color: #CCF244; }
+.UI/UX-2-hex { color: #818C2B; }
+.UI/UX-3-hex { color: #52591D; }
+.UI/UX-4-hex { color: #EDF250; }
+.UI/UX-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in RGBA */
+.UI/UX-1-rgba { color: rgba(204, 242, 67, 1); }
+.UI/UX-2-rgba { color: rgba(128, 140, 43, 1); }
+.UI/UX-3-rgba { color: rgba(82, 89, 29, 1); }
+.UI/UX-4-rgba { color: rgba(236, 242, 79, 1); }
+.UI/UX-5-rgba { color: rgba(12, 12, 12, 1); }
+
+/* Color Theme Swatches in HSLA */
+.UI/UX-1-hsla { color: hsla(73, 87, 60, 1); }
+.UI/UX-2-hsla { color: hsla(67, 52, 36, 1); }
+.UI/UX-3-hsla { color: hsla(67, 50, 23, 1); }
+.UI/UX-4-hsla { color: hsla(61, 86, 63, 1); }
+.UI/UX-5-hsla { color: hsla(0, 0, 5, 1); }
+
+
+/**/
+
+/* Color Theme Swatches in Hex */
+.Viagem-1-hex { color: #253C59; }
+.Viagem-2-hex { color: #58788C; }
+.Viagem-3-hex { color: #99B4BF; }
+.Viagem-4-hex { color: #D9B70D; }
+.Viagem-5-hex { color: #BF8D30; }
+
+/* Color Theme Swatches in RGBA */
+.Viagem-1-rgba { color: rgba(37, 59, 89, 1); }
+.Viagem-2-rgba { color: rgba(88, 120, 140, 1); }
+.Viagem-3-rgba { color: rgba(153, 180, 191, 1); }
+.Viagem-4-rgba { color: rgba(216, 182, 13, 1); }
+.Viagem-5-rgba { color: rgba(191, 141, 47, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Viagem-1-hsla { color: hsla(213, 40, 24, 1); }
+.Viagem-2-hsla { color: hsla(202, 22, 44, 1); }
+.Viagem-3-hsla { color: hsla(196, 23, 67, 1); }
+.Viagem-4-hsla { color: hsla(50, 88, 45, 1); }
+.Viagem-5-hsla { color: hsla(39, 60, 46, 1); }
