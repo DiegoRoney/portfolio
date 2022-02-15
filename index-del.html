@@ -18,7 +18,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/estilo.css" />
 
     <!---->
     <!---->
@@ -31,10 +31,10 @@
     <script>
         $(window).scroll(function () {
             var scroll = $(window).scrollTop();
-            if (scroll >= 40) {
-                $("#menu").addClass("ativo");
+            if (scroll >= 40) { // se rolar 40px ativa o evento
+                $("#menu").addClass("ativo"); //coloca a classe "ativo" no id=menu
             } else {
-                $("#menu").removeClass("ativo");
+                $("#menu").removeClass("ativo"); //se for menor que 40px retira a classe "ativo" do id=menu
             }
         });
     </script>
@@ -63,28 +63,24 @@
     <!--nav do header-->
 
     <main>
+        <!---->
+        <!---->
         <div class="header-section">
-            <div class="msg">
+
+            <!-- 
+            <picture>
+
+                <source media="(max-width: 480px)" srcset="imagens/banner1-c.jpg">
+                <source media="(max-width: 768px)" srcset="imagens/banner1-m.jpg">
+                <source media="(min-width: 769px)" srcset="imagens/banner1-g.jpg">
+
+                <img src="imagens/banner1-g.jpg" alt="banner">
+            </picture>
+            -->
+            <div class="msg ">
                 <div class="text-box">
-                    <h1>Eu sou <br> <span class="auto-input"></span></h1>
-                    <br>
-                    <p>Olá, meu nome é Diego. Sou estudante de Ciência da Computação,
-                        Desenvolvedor Front-end e Designer nas horas vagas</p>
-                    <p>Web design</p>
-                    <p>Front-end</p>
-                    <div class="item-ft">
-                        <h3> Encontre-me</h3>
-                        <a href="index.html"><img class="cabeçalho-redes-icon" src="icons/icon-diego.png"></a>
-
-                        <a href="https://github.com/DiegoRoney/" target="_blank"><img class="cabeçalho-redes-icon"
-                                src="icons/icon-github.png"></a>
-
-                        <a href="https://www.instagram.com/rbs_diego/" target="_blank"><img class="cabeçalho-redes-icon"
-                                src="icons/icon-instagram.png"></a>
-
-                        <a href="https://api.whatsapp.com/send?phone=5577992028886"><img class="cabeçalho-redes-icon"
-                                src="icons/tel.png"></a>
-                    </div>
+                    <h1>Eu sou <br> <span class="auto-input"></span></h1>                   
+                    <p> Console.log(" E estou aqui para te ajudar a criar seu site!" ); </p>
                 </div>
             </div>
         </div>
@@ -94,9 +90,10 @@
         <div class="more-texto">
             <h2 class="text-center">ÚLTIMOS TRABALHOS</h2>
         </div>
-
-        <div class="trabalhos">           
-    
+        
+        <div class="trabalhos">
+            
+             
             <!--carrocel-->
             <div class="container">
                 <div id="carouselExampleIndicators" class="carousel slide img-responsive" data-ride="carousel">
@@ -144,59 +141,99 @@
             <!--//carrocel-->
             <!--//todo: carrocel-->
             <!--//!carrocel-->
+
         </div>
 
         <!--TODO: add mais -->
-              
-
         <div class="skill">
+            <br>
             <div class="more-texto">
-                <h2 class="text-center">Pricipais TECNOLOGIAS que trabalho</h2>
-            </div>    
+                <h2 class="text-center">MINHAS HABILIDADES</h2>
+            </div>            
+            <br>
 
-            <div class="skills">
-                <img src="https://img.icons8.com/color/96/000000/javascript--v1.png"/>
-                <br>Javascript
-            </div>
-            <div class="skills">
-                <img src="https://img.icons8.com/external-fauzidea-gradient-fauzidea/50/000000/external-atom-back-to-school-fauzidea-gradient-fauzidea.png"/>
-                <br>React
-            </div>
-            <div class="skills">
-                <img src="icons/icon-github.png" alt=""> 
-                <br>Github
-            </div>
-            <div class="skills">
-                <img src="https://img.icons8.com/color/48/000000/html-5--v2.png"/>
-                <br>Html5
-            </div>
-            <div class="skills">
-                <img src="https://img.icons8.com/color/96/000000/css3.png"/>
-                <br>Css3
-            </div>
-            <div class="skills">
-                <img src="https://img.icons8.com/color/96/000000/bootstrap.png"/>
-                <br>Bootstrap
-            </div>
-            <div class="skills">
-                <img src="https://img.icons8.com/color-glass/96/000000/adobe-photoshop.png"/>
-                <br>Photoshop
-            </div>
-            <div class="skills">
-                <img src="https://img.icons8.com/color-glass/50/000000/adobe-illustrator.png"/>
-                <br>Illustrator
-            </div>
-            <div class="skills">
-                <img src="https://img.icons8.com/fluency/48/000000/coreldraw-2021.png"/>
-                <br>Coreldraw
-            </div>          
-            
-            
-        </div>
+            <div class="barra">
+                <ul>
+                    <li>
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt=""> JAVASCRIPT
+                        <div class="progress">
 
-        
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                                role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 65%">
+                            </div>
+                        </div>
+                    </li>
+                    <br>
+                    <li>
+                        <img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" alt="">HTML5
+                        <div class="progress">
 
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                                role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 90%">
+                            </div>
+                        </div>
+                    </li>
+                    <br>
+                    <li>
+                        <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="">CSS
+                        <div class="progress">
 
+                            <div class="progress-bar progress-bar-striped progress-bar-animated "
+                                role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 85%">
+                            </div>
+                        </div>
+                    </li>
+                    <br>
+                    <li>
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png" alt="">BOOTSTRAP
+                        <div class="progress">
+
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark"
+                                role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 70%">
+                            </div>
+                        </div>
+                    </li>
+                    <br>
+                    <li>
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968520.png" alt="">PHOTOSHOP
+                        <div class="progress">
+
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info"
+                                role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 99%">
+                            </div>
+                        </div>
+                    </li>
+                    <br>
+                    <li>
+                        <img src="https://cdn-icons-png.flaticon.com/512/136/136518.png" alt="">ILLUSTRATOR
+                        <div class="progress">
+
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                                role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 75%">
+                            </div>
+                        </div>
+                    </li>
+                    <br>
+                    <li>
+                        <img src="https://cdn-icons-png.flaticon.com/512/4649/4649547.png" alt="">COREWDRAW
+                        <div class="progress">
+
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 99%">
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
 
         </div>
 
@@ -233,34 +270,29 @@
         </div>
 
         <!-- chamanda no que estou trabalhando-->
-        
-        <!-- chamanda no que estou trabalhando-->
-
-        <!-- no que estou trabalhando
-
-            <div class="more-texto">
+        <div class="more-texto">
             <h2 class="text-center">o que estou <strong>desenvolvendo</strong> agora</h2>
 
         </div>
+        <!-- chamanda no que estou trabalhando-->
+
+        <!-- no que estou trabalhando-->
         <div class="working">
 
             <div class="card text-center" style="width: 80%;">
-                <img src="https://www.luiztools.com.br/wp-content/uploads/2020/06/reactJS.png" alt="">
-                
+                <img class="card-img-top" src="imagens/webdesigner/t-sirt.jpeg" alt="Imagem de capa do card">
                 <div class="card-body">
-                    <p class="card-text">Aprofundando conhecimendos em React JS</p>
+                    <p class="card-text">🔒 E-comerce full stack de camisetas personalizadas</p>
                 </div>
             </div>
-
+        
 
         </div>
--->
+
         <div class="design-img">
             <div class="design-chamada text-center">
-                <h4> </h4>
-                <a href="portfolio.html">
-                    <p class="design-link">IR PARA O PORTFÓLIO</p>
-                </a>
+                <h4>   </h4>
+                <a href="portfolio.html"><p class="design-link">IR PARA O PORTFÓLIO</p></a>
             </div>
         </div>
 
