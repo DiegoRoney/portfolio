@@ -67,15 +67,15 @@ a:hover {
 
   }
   .msg h1{
-    font-size: 110px;
+    font-size: 60px;
     
   }
   .msg p{
-    font-size: 20px;
+    font-size: 18px;
     
   }
   .text-box{
-    padding: 150px;
+    padding: 10px;
   }
   
 }
