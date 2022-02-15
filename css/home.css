@@ -285,20 +285,39 @@ a:hover {
   font-weight: bold;
   text-transform: uppercase;
 }
+strong{
+  color: #c50063;
+}
 .working {
   
+  gap: 20px;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   display: flex;
   flex-wrap: wrap;  
   padding: 15px;
-  color: black;  
+  color: black;
+  background: rgb(65, 65, 65); 
  
-  background-color: rgb(12, 12, 12);
 }
+
+.working-item{    
+  width: 900px;
+  color: #fff;
+
+  font-size: 1.2rem;
+  padding: 15px;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #3b3b3b, #464646);
+  box-shadow:  20px 20px 60px #373737,
+               -20px -20px 60px #4b4b4b;
+            }
+
 .working img{
+  
   width: 100%;
-  height: 100%;
+  
+  
 }
 /**/
 
@@ -323,7 +342,7 @@ a:hover {
   text-decoration: none;
 }
 .principal-ft a:hover{
-  color: #ff7b00;
+  color: #c50063;
 }
 .principal-ft img{
   width: 60px;
