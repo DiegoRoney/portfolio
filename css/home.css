@@ -145,8 +145,8 @@ a:hover {
 .msg {
     font-size: 20px;
     padding: 15px;
-    background-color: rgba(41, 41, 41, 0.089);
-    color: rgb(255, 255, 255);
+    background-color: rgba(41, 41, 41, 0.089);    
+    color: #ffffff;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     backdrop-filter: blur(5px);
