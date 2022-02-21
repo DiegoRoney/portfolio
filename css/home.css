@@ -41,6 +41,18 @@ a:hover {
     color: #92c5f1;
     text-decoration: none;
 }
+.btn-first{
+    background-color: #F20544;
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px; 
+    
+}
+.btn-first:hover{
+    background-color: #970028;  
+      
+}
 
 .header-section {
     /*pegar toda a tela*/
@@ -53,6 +65,7 @@ a:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 @media screen and (max-width: 967px) {
@@ -66,25 +79,30 @@ a:hover {
         margin-top: -60px;
     }
     .msg h1 {
-        font-size: 60px;
+        font-size: 70px;
     }
     .msg p {
         font-size: 18px;
+        
     }
     .text-box {
-        padding: 10px;
+        padding: 10px;        
     }
 }
 
 
-/*
+
 @media screen and (min-width: 1024px) {
-  #main-sobre {
     
-    margin-top: -800px;
-  }
+    .msg h1 {
+        font-size: 120px;
+    }
+    .msg p {
+        font-size: 26px;
+        width: 50%;
+    }
 }
-*/
+
 
 .lead {
     font-size: 1.2rem;
@@ -150,6 +168,7 @@ a:hover {
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     backdrop-filter: blur(5px);
+   
 }
 
 .trabalhos {
