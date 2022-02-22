@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -54,12 +55,13 @@ a:hover {
       
 }
 
+
 .header-section {
     /*pegar toda a tela*/
     width: 100%;
     height: 100vh;
     /*deixar a imagem aqui*/
-    background: url(../imagens/banner1-g.jpg) no-repeat center;
+    background: url(../imagens/close-up-hand-taking-notes.jpg) no-repeat center;
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
@@ -67,10 +69,23 @@ a:hover {
     align-items: center;
     
 }
+@media screen and (max-width: 670px) {
+    .msg h1 {
+        font-size: 60px;
+    }
+    .msg p {
+        font-size: 16px;
+        
+    }
+         
+}
 
-@media screen and (max-width: 967px) {
+@media screen and (min-width: 767px) {
     #main-sobre {
         margin-top: -600px;
+    }
+    .msg h1 {
+        font-size: 100px;
     }
 }
 
@@ -79,7 +94,7 @@ a:hover {
         margin-top: -60px;
     }
     .msg h1 {
-        font-size: 70px;
+        font-size: 100px;
     }
     .msg p {
         font-size: 18px;
@@ -162,15 +177,24 @@ a:hover {
 
 .msg {
     font-size: 20px;
-    padding: 15px;
-    background-color: rgba(41, 41, 41, 0.089);    
+    padding: 150px 50px 20px 20px;
+     
     color: #ffffff;
     width: 100%;
+    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    backdrop-filter: blur(5px);
+    /* backdrop-filter: blur(0px);*/    
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,0.7707457983193278) 24%, rgba(0,0,0,0.5998774509803921) 65%, rgba(0,212,255,0.09147408963585435) 100%);
    
+    
 }
-
+.msg h1{
+    font-family: 'Bebas Neue', cursive;
+}
+span{
+    font-weight: bold;
+}
 .trabalhos {
     text-align: center;
     justify-content: space-between;
