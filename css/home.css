@@ -69,7 +69,7 @@ a:hover {
     align-items: center;
     
 }
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 768px) {
     .msg h1 {
         font-size: 55px;
     }
@@ -119,6 +119,7 @@ a:hover {
         font-size: 26px;
         width: 50%;
     }
+    
 }
 
 
@@ -383,6 +384,7 @@ strong {
 .item-ft {
     flex: 1 1 150px;
     align-content: flex-start;
+    margin: 0 50px 50px 0;
 }
 
 .item-ft img {
