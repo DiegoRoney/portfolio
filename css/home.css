@@ -48,6 +48,7 @@ a:hover {
     width: 250px;
     height: 50px;
     border-radius: 20px; 
+    margin-top: 25px;
     
 }
 .btn-first:hover{
@@ -384,10 +385,18 @@ strong {
 .item-ft {
     flex: 1 1 150px;
     align-content: flex-start;
-    margin: 0 50px 50px 0;
+    margin: 20px 0 200px 0;
 }
-
+.item-ft2 {
+    flex: 1 1 150px;
+    align-content: flex-start;
+    
+}
 .item-ft img {
+    width: 2.0em;
+    height: auto;
+}
+.item-ft2 img {
     width: 2.0em;
     height: auto;
 }
