@@ -30,7 +30,9 @@
     color: #ff0000;
     text-decoration: none;
   }
-  
+  html {
+    scroll-behavior: smooth;
+  }
   body {  
     padding-top: 0px;  
   }
