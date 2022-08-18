@@ -9,6 +9,12 @@
       //}
    // });
 
-  
-
+  const handleScroll = () => {
+    window.scroll({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
+const buttonElement = document.getElementById("up");
+buttonElement.onclick = handleScroll;
  
