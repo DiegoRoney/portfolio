@@ -426,6 +426,22 @@ strong {
     height: auto;
 }
 
+#up{
+    /* position: fixed; */
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: #F20544;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+    box-shadow: 0px 0px 10px #000;
+}
 
 /*FOOTER*/
 
@@ -475,25 +491,3 @@ strong {
     color: rgba(0, 23, 38, 1);
 }
 
-
-/* Color Theme Swatches in HSLA */
-
-.Bright-Beyond-This-Black-1-hsla {
-    color: hsla(343, 96, 48, 1);
-}
-
-.Bright-Beyond-This-Black-2-hsla {
-    color: hsla(331, 57, 34, 1);
-}
-
-.Bright-Beyond-This-Black-3-hsla {
-    color: hsla(213, 37, 39, 1);
-}
-
-.Bright-Beyond-This-Black-4-hsla {
-    color: hsla(208, 96, 12, 1);
-}
-
-.Bright-Beyond-This-Black-5-hsla {
-    color: hsla(202, 96, 7, 1);
-}
