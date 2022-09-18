@@ -44,6 +44,22 @@ a:hover {
     color: #92c5f1;
     text-decoration: none;
 }
+.btn-1{
+    margin: 15px;
+    background-color: rgba(128, 128, 128, 0);
+    width:120px;
+    height:35px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-color: rgba(0, 247, 255, 0.322);
+    
+  }
+  
+  .btn-1:hover{
+    background-color: #f20544;
+    border-color: rgb(255, 255, 255);
+    color: #fff;
+  }
 .btn-first{
     background-color: #F20544;
     color: white;
