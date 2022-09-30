@@ -1,0 +1,66 @@
+.contato{
+    background-color: #121212;
+}
+.container{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #121212;
+    color: #ffff;
+    padding: 14px;
+  }
+  
+  .title{
+    margin-bottom: 14px;
+  }
+  
+  .form{
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input{
+    background-color: #272727;
+    margin-bottom: 14px;
+    height: 34px;
+    border-radius: 4px;
+    border: 0;
+    padding: 0 8px;
+    color: #ffff;
+    
+  }  
+  .textarea{
+    color: #ffff;
+    background-color: #272727;
+    margin-bottom: 14px;
+    border-radius: 4px;
+    border: 0;
+    padding: 8px;
+    height: 94px;
+    resize: none;
+  }
+  
+  .button{
+    color: #FFF;
+    height: 45px;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    background: linear-gradient(to right, #ff3613, #f20544);
+    font-size: 18px;
+    transition: background-color, transform 0.8s;
+  }
+  
+  .button:hover{
+    background: linear-gradient(to right, #FF4B2B, #f20544);
+    transform: scale(1.01);
+  }
+
+  .msg-send h3{
+    margin-top: 30px;
+    color: #FF4B2B;
+  }

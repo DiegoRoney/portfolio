@@ -1,0 +1,24 @@
+.info{   
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #b6b6b6;
+}
+
+.info:hover{
+    /* transition: all ease 0.5s; */
+    transition: all ease 1.9s;
+    font-size: 25px;
+}
+
+.blog{
+    background-color: #070707;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #b6b6b6;
+}
