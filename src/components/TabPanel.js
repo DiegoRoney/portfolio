@@ -72,7 +72,7 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        <div className="habilidades">
+        <div className="habilidades text-muted">
           <p>
             <span> DESIGN </span> - nível avançado em de softwares de edição de
             imagem e vídeo.
@@ -131,23 +131,29 @@ export default function BasicTabs() {
       </TabPanel>
 
       <TabPanel value={value} index={1}>
-      <div className="experiencia">
-          <p>
-          ⚠️em construção⚠️
+      <div className="experiencia text-muted">
+          <p> 
+           Secretário Escolar - PMC<br></br>2011 – Atual    
+          </p>
+          <p> 
+          Designer Gráfico Freelancer<br></br>2018 – 2021          
+          </p>
+          <p> 
+            TI - Biscoitos Condeúba <br></br>2011 - 2013        
           </p>
           <p>
-            .
+          Instrutor - Ensino de Informática <br></br> 2001 – 2002                     
           </p>
         </div>
       </TabPanel>
 
       <TabPanel value={value} index={2}>
-        <div className="Formacao">
+        <div className="Formacao text-muted">
           <p>
-            Graduado em <span>COMPUTAÇÃO</span> UFPB 2017-2022.
+            Graduado em <span>COMPUTAÇÃO</span> UFPB<br></br> 2017-2022.
           </p>
           <p>
-            Programando o Futuro | Dock Tech - 2022
+            Programando o Futuro | Dock Tech<br></br> 2022
           </p>
         </div>
       </TabPanel>
