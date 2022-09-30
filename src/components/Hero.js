@@ -28,6 +28,7 @@ function Hero() {
           />
         </div>
         <p>⚠️Em construção⚠️</p>
+        <p div className="text-muted">Esta versão do portfólio <br></br>esta sendo em React Js</p>
         <br></br>
 
           
