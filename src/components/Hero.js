@@ -21,7 +21,7 @@ function Hero() {
         <div className="digitando">
           <Typewriter
             options={{
-              strings: ['Front-end', 'Web Desinger', 'Desingn'],
+              strings: ['Front-end', 'Web Desinger', 'Desingn', 'Programador'],
               autoStart: true,
               loop: true,
             }}
