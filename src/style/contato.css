@@ -21,13 +21,13 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    gap: 15px;
   }
-  .container22{
-    position: relative;
-  }
+  
   input{
-    height: 34px;
+    height: 34px;    
   }
+  
   input, textarea{
     background-color: #272727;
     margin-bottom: 14px;    
