@@ -61,7 +61,7 @@ function Contato() {
         </p>
         <p>Ou me envie uma mensagem!</p>
         
-
+        
           <input
             className="input"
             type="text"
@@ -69,7 +69,7 @@ function Contato() {
             onChange={(e) => setName(e.target.value)}
             value={name}
           />
-
+          
           <input
             className="input"
             type="email"
@@ -80,6 +80,7 @@ function Contato() {
 
           <textarea
             className="textarea"
+            rows="5"
             placeholder="Digite sua mensagem..."
             onChange={(e) => setMessage(e.target.value)}
             value={message}

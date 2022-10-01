@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../style/hero.css";
+
 import digitando from "../video/gamer.mp4";
 
 import Typewriter from "typewriter-effect";
