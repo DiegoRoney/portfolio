@@ -69,7 +69,7 @@ function Portfolio() {
             <h3>Ensino de Computação</h3>
           </div>
           <div className="card-texto">
-            <p>Landing Page da Cartilha - Ensino de Computação</p>
+            <p>Landing Page - Ensino de Computação</p>
           </div>
           <p className="form-text">html5, Js, css e Bootstrap</p>
           <a
