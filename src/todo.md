@@ -1,15 +1,21 @@
 
-HOME
-SOBRE <HERO>
-PORTFOLIO <GALERIA 6 ITENS COM "VER MAIS">
-SERVIÇO <FLEX BOX 3 ITENS +  COM AS TECNOLOGIAS>
-BLOG <O QUE ESTOU DESENVOLVENDO>
-CONTATO <ISERIR PAGE CONTATO EM HERO>
+HOME <HERO VIDEO>
 
-**********
-HOME
-SOBRE
-SERVIÇO
-PORTFOLIO
-BLOG
-CONTATO
+===================================
+SOBRE <IMG + TAB>
+
+===================================
+SERVIÇO <FLEX BOX 4 ITENS>
+- links para o blog
+
+===================================
+PORTFOLIO <GALERIA 6 ITENS COM "VER MAIS">
+- link para Nova page?
+
+===================================
+BLOG <O QUE ESTOU DESENVOLVENDO>
+
+===================================
+CONTATO <PAGE CONTATO EM HERO>
+
+===================================
