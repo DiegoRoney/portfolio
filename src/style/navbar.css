@@ -33,9 +33,10 @@ a {
   }
   
   .marca-name {
-    font-weight:700;
-    display: flex;
+    font-weight:700;   
+    display: block;
     align-items: center;
+    justify-content: center;
     text-decoration: none;
     color: #ffffff;
     font-size: 1.3rem;
@@ -52,7 +53,7 @@ a {
   }
 
   .marca-name img{
-    width: 30px;
+    height: 20px;
   }
   
   .navegacao-menu {
@@ -67,6 +68,7 @@ a {
   .navegacao-menu li {
     list-style-type: none;
     margin: 0 1rem;
+    padding-top: 20px;
     
   }
   
@@ -123,6 +125,22 @@ a {
     transform: translateY(-50%);
     display: none;
   }
+  .hamburgerX {
+    z-index: -1;
+    border: 0;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: #00000000;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    top: 6%;
+    right: 25px;
+    transform: translateY(-50%);
+    display: none;
+  }
   
   
   .hamburger:hover {
@@ -131,11 +149,15 @@ a {
   
   @media screen and (max-width: 550px) {
     .hamburger {
-      z-index: 20;
+      z-index: 9;
       display: block;
-    }   
+    } 
+    .hamburgerX {
+      z-index: 19;
+      display: block;
+    }  
     .navegacao{
-      background-color: #19191900;
+      background-color: #191919;
       height: 50px;
       z-index: 10;
     }
