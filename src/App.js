@@ -8,11 +8,13 @@ import Servico from "./components/Servico";
 import Sobre from "./components/Sobre";
 import Portfolio from "./components/Portfolio";
 import Contato from "./components/contato";
-import Blog from "./components/Blog";
+import News from "./components/News";
+
+
 
 function App() {
   
-//! nav bar
+//? nav bar
   const[ativador, setAtivador] = useState(false);
 
   useEffect(function () {
@@ -26,18 +28,19 @@ function App() {
     
     window.addEventListener('scroll', posicaoScroll);
   },[]);
-//! nav bar
+//! end nav bar
   return (
-    <div>
+    <div>   
+
       <Navbar acao={ativador}/> 
 
       <Hero/>
       <Sobre/>
       <Servico/>
       <Portfolio/>
-      <Blog />
+      <News />      
       <Contato/>      
-      <Footer/>
+      <Footer/>     
 
     </div>
   );
@@ -46,3 +49,8 @@ function App() {
 }
 
 export default App;
+
+/**
+ * inicio de uma div complexa //?
+ * e fim //!
+ */

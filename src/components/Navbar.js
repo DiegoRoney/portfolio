@@ -68,13 +68,13 @@ export default function Navbar({ acao }) {
             <a href="#sobre">Sobre</a>
           </li>
           <li>
-            <a href="#servico">Serviço</a>
+            <a href="#servico">Serviços</a>
           </li>
           <li>
             <a href="#portfolio">Portfólio</a>
           </li>
           <li>
-            <a href="#blog">Blog</a>
+            <a href="#news">Blog</a>
           </li>
           <li>
             <a href="#contato">Contato</a>
