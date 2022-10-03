@@ -10,9 +10,10 @@ import Portfolio from "./components/Portfolio";
 import Contato from "./components/contato";
 import Blog from "./components/Blog";
 
+
 function App() {
   
-//! nav bar
+//? nav bar
   const[ativador, setAtivador] = useState(false);
 
   useEffect(function () {
@@ -26,9 +27,10 @@ function App() {
     
     window.addEventListener('scroll', posicaoScroll);
   },[]);
-//! nav bar
+//! end nav bar
   return (
-    <div>
+    <div>   
+
       <Navbar acao={ativador}/> 
 
       <Hero/>
@@ -37,7 +39,7 @@ function App() {
       <Portfolio/>
       <Blog />
       <Contato/>      
-      <Footer/>
+      <Footer/>     
 
     </div>
   );
