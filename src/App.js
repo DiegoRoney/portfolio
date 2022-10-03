@@ -11,6 +11,7 @@ import Contato from "./components/contato";
 import Blog from "./components/Blog";
 
 
+
 function App() {
   
 //? nav bar

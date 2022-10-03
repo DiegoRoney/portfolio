@@ -26,18 +26,7 @@ function Hero() {
         </div>
         <p>⚠️Em construção⚠️</p>
         
-        <p div className="text-muted">
-        <code>
-          Esta versão do portfólio <br></br>
-          está sendo construída em React Js
-          </code>
-        </p>
         
-        <br></br>
-
-        {/* <button className="hero-btn-principal">
-          botão
-        </button> */}
       </div>
     </div>
   );
