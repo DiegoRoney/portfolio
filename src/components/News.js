@@ -20,7 +20,7 @@ function News() {
       <div className="news-container">
         {/* card 1 */}
         <div className="news-card ">
-          <div className="card-icon">
+          <div className="news-card-icon">
             <img src={news} alt="news" />
           </div>
           <div className="card-titulo">
@@ -47,7 +47,7 @@ function News() {
         
          {/* card 1 */}
          <div className="news-card ">
-          <div className="card-icon">
+          <div className="news-card-icon">
             <img src={news} alt="news" />
           </div>
           <div className="card-titulo">
@@ -74,7 +74,7 @@ function News() {
 
          {/* card 1 */}
          <div className="news-card ">
-          <div className="card-icon">
+          <div className="news-card-icon">
             <img src={news} alt="news" />
           </div>
           <div className="card-titulo">
@@ -101,7 +101,7 @@ function News() {
 
          {/* card 1 */}
          <div className="news-card ">
-          <div className="card-icon">
+          <div className="news-card-icon">
             <img src={blog} alt="news" />
           </div>
           <div className="card-titulo">
