@@ -1,5 +1,5 @@
 .contato{
-    background-color: #121212;
+    background-color: #0c0c0c;
 }
 .container{
     min-height: 90vh;
@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #121212;
+    background-color: #0c0c0c;
     color: #ffff;
     padding: 14px;
   }

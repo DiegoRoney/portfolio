@@ -74,7 +74,7 @@ export default function Navbar({ acao }) {
             <a href="#portfolio">Portfólio</a>
           </li>
           <li>
-            <a href="#blog">Blog</a>
+            <a href="#news">Blog</a>
           </li>
           <li>
             <a href="#contato">Contato</a>

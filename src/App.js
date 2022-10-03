@@ -8,7 +8,7 @@ import Servico from "./components/Servico";
 import Sobre from "./components/Sobre";
 import Portfolio from "./components/Portfolio";
 import Contato from "./components/contato";
-import Blog from "./components/Blog";
+import News from "./components/News";
 
 
 
@@ -38,7 +38,7 @@ function App() {
       <Sobre/>
       <Servico/>
       <Portfolio/>
-      <Blog />
+      <News />      
       <Contato/>      
       <Footer/>     
 
