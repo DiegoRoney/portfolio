@@ -76,7 +76,7 @@ function Footer() {
           <a href="#portfolio">
             <p>Portfólio</p>
           </a>
-          <a href="#blog">
+          <a href="#news">
             <p>Blog</p>
           </a>
           {/* <p>item</p> */}
