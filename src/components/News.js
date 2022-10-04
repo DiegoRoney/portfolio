@@ -34,7 +34,7 @@ function News() {
               tincidunt non ex non scelerisque. Duis finibus scelerisque turpis.
             </p>
           </div>
-          <p className="form-text">tag</p>
+          <p className="form-text">tag: Programação, React Js</p>
 
           <a
             className="btn-port"
@@ -50,7 +50,7 @@ function News() {
           className="news-card "
           style={{
             backgroundImage:
-              'url("https://cdn.pixabay.com/photo/2013/10/18/07/44/network-197303_960_720.jpg")',
+              'url("https://i.pinimg.com/736x/e2/92/a4/e292a4bf4a346c450c79e18c09d59f1c.jpg")',
             height: "500px",
             backgroundRepeat: "no-repeat center",
           }}
@@ -130,7 +130,7 @@ function News() {
               tincidunt non ex non scelerisque. Duis finibus scelerisque turpis.
             </p>
           </div>
-          <p className="form-text">tag</p>
+          <p className="form-text">tag: notícias</p>
 
           <a
             className="btn-port"
