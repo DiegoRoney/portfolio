@@ -2,7 +2,7 @@ import "../style/news.css";
 import React from "react";
 
 // import news from "../img/news/news.png";
-import blog from "../img/news/blog.jpeg";
+//import blog from "../img/news/blog.jpeg";
 
 function News() {
   return (
@@ -121,7 +121,7 @@ function News() {
         >
           <div className="news-card-contend"> 
           <div className="card-titulo">
-            <h3>Todas as notícia</h3>
+            <h3>Todas as notícias</h3>
           </div>
           <div className="card-texto">
           <p className="text-danger">03 de outubro de 2022</p>
