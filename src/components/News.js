@@ -2,7 +2,6 @@ import "../style/news.css";
 import React from "react";
 
 
-
 import news from "../img/news/news.png";
 import blog from "../img/news/blog.jpeg";
 
