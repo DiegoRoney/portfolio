@@ -131,18 +131,18 @@ export default function BasicTabs() {
       </TabPanel>
 
       <TabPanel value={value} index={1}>
-      <div className="experiencia text-muted">
-          <p> 
-           Secretário Escolar - PMC<br></br>2011 – Atual    
-          </p>
-          <p> 
-          Designer Gráfico Freelancer<br></br>2018 – 2021          
-          </p>
-          <p> 
-            TI - Biscoitos Condeúba <br></br>2011 - 2013        
+        <div className="experiencia text-muted">
+          <p>
+            Secretário Escolar - PMC<br></br>2011 – Atual
           </p>
           <p>
-          Instrutor - Ensino de Informática <br></br> 2001 – 2002                     
+            Designer Gráfico Freelancer<br></br>2018 – 2021
+          </p>
+          <p>
+            TI - Biscoitos Condeúba <br></br>2011 - 2013
+          </p>
+          <p>
+            Instrutor - Ensino de Informática <br></br> 2001 – 2002
           </p>
         </div>
       </TabPanel>
@@ -157,7 +157,6 @@ export default function BasicTabs() {
           </p>
         </div>
       </TabPanel>
-
     </Box>
   );
 }

@@ -1,66 +1,68 @@
-.contato{
-    background-color: #0c0c0c;
+.contato {
+  background-color: #0c0c0c;
 }
-.container{
-    min-height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #0c0c0c;
-    color: #ffff;
-    padding: 14px;
-  }
-  
-  .title{
-    margin-bottom: 50px;
-  }
-  
-  .form{
-    max-width: 600px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  
-  input{
-    height: 34px;    
-  }
-  
-  input, textarea{
-    background-color: #272727;
-    margin-bottom: 14px;    
-    border-radius: 4px;
-    border: 0;
-    padding: 0 8px;
-    color: #ffff;
-    
-  } 
-  input:focus,
-  textarea:focus{
-    border: none;
-    outline: 1px solid #f20544;
-    
-  } 
-   
-  .button{
-    color: #FFF;
-    height: 45px;
-    border-radius: 4px;
-    border: 0;
-    cursor: pointer;
-    background: linear-gradient(to right, #ff3613, #f20544);
-    font-size: 18px;
-    transition: background-color, transform 0.8s;
-  }
-  
-  .button:hover{
-    background: linear-gradient(to right, #FF4B2B, #f20544);
-    transform: scale(1.01);
-  }
 
-  .msg-send h3{
-    margin-top: 30px;
-    color: #FF4B2B;
-  }
+.container {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0c0c0c;
+  color: #ffff;
+  padding: 14px;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+.form {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  height: 34px;
+}
+
+input,
+textarea {
+  background-color: #272727;
+  margin-bottom: 14px;
+  border-radius: 4px;
+  border: 0;
+  padding: 0 8px;
+  color: #ffff;
+
+}
+
+input:focus,
+textarea:focus {
+  border: none;
+  outline: 1px solid #f20544;
+}
+
+.button {
+  color: #FFF;
+  height: 45px;
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+  background: linear-gradient(to right, #ff3613, #f20544);
+  font-size: 18px;
+  transition: background-color, transform 0.8s;
+}
+
+.button:hover {
+  background: linear-gradient(to right, #FF4B2B, #f20544);
+  transform: scale(1.01);
+}
+
+.msg-send h3 {
+  margin-top: 30px;
+  color: #FF4B2B;
+}

@@ -100,7 +100,6 @@ function Servico() {
           </div>
           <div className="card-texto">{/* <p>texto</p> */}</div>
         </div>
-       
       </div>
     </div>
   );

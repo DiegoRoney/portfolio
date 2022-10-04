@@ -12,7 +12,7 @@ export default function Navbar({ acao }) {
           <img src={LogoDiego} alt="logo" />
         </a>
       </div>
-      
+
       {/*! botoes botoes */}
       <button
         className="hamburger"
@@ -45,7 +45,7 @@ export default function Navbar({ acao }) {
             onClick={() => {
               setIsNavExpanded(!isNavExpanded);
             }}
-          >           
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="#ffffff"

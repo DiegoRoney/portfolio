@@ -25,8 +25,6 @@ function Hero() {
           />
         </div>
         <p>⚠️Em construção⚠️</p>
-        
-        
       </div>
     </div>
   );

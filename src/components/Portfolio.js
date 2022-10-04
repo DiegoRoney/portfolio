@@ -1,8 +1,6 @@
 import "../style/portfolio.css";
 import React from "react";
 
-
-
 import qrcode from "../img/site/qrcode.png";
 import citrus from "../img/site/citrus.jpg";
 import comp from "../img/site/comp.jpg";
@@ -12,7 +10,6 @@ import spotfy from "../img/site/spotfy.jpg";
 //import coffe from "../img/site/coffe.png";
 
 function Portfolio() {
- 
   return (
     <div id="portfolio" className="portfolio">
       <div className="portfolio-titulo">
@@ -142,7 +139,6 @@ function Portfolio() {
             Visite o site
           </a>
         </div>
-        
       </div>
       ver mais...
     </div>
