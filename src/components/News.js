@@ -56,7 +56,7 @@ function News() {
             </p>
 
             <a
-              className="btn-port"
+              className="btn-news"
               href="#news"
               // target="_black"
             >
@@ -111,7 +111,7 @@ function News() {
             </p>
 
             <a
-              className="btn-port"
+              className="btn-news"
               href="#news"
               // target="_black"
             >
@@ -166,7 +166,7 @@ function News() {
               </p>
 
             <a
-              className="btn-port"
+              className="btn-news"
               href="#news"
               // target="_black"
             >
@@ -220,7 +220,7 @@ function News() {
               tag: notícias</p>
 
             <a
-              className="btn-port"
+              className="btn-news"
               href="#news"
               // target="_black"
             >
@@ -228,7 +228,7 @@ function News() {
             </a>
           </div>
         </div>
-        
+
       </div>
     </div>
   );

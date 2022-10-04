@@ -12,6 +12,7 @@ export default function Navbar({ acao }) {
           <img src={LogoDiego} alt="logo" />
         </a>
       </div>
+      
       {/*! botoes botoes */}
       <button
         className="hamburger"
