@@ -1,8 +1,6 @@
 import "../style/news.css";
 import React from "react";
 
-// import news from "../img/news/news.png";
-//import blog from "../img/news/blog.jpeg";
 
 function News() {
   return (
@@ -23,30 +21,31 @@ function News() {
             backgroundRepeat: "no-repeat center",
           }}
         >
-          <div className="news-card-contend"> 
-          <div className="card-titulo">
-            <h3>Notícia</h3>
-          </div>
-          <div className="card-texto">
-            <p className="text-danger">03 de outubro de 2022</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              tincidunt non ex non scelerisque. Duis finibus scelerisque turpis.
-            </p>
-          </div>
-          <p className="form-text">tag: Programação, React Js</p>
+          <div className="news-card-contend">
+            <div className="card-titulo">
+              <h3>Notícia</h3>
+            </div>
+            <div className="card-texto">
+              <p className="text-danger">03 de outubro de 2022</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                tincidunt non ex non scelerisque. Duis finibus scelerisque
+                turpis.
+              </p>
+            </div>
+            <p className="form-text">tag: Programação, React Js</p>
 
-          <a
-            className="btn-port"
-            href="#news"
-            // target="_black"
-          >
-            Saiba mais...
-          </a>
+            <a
+              className="btn-port"
+              href="#news"
+              // target="_black"
+            >
+              Saiba mais...
+            </a>
           </div>
         </div>
-         {/* card 1 */}
-         <div
+        {/* card 1 */}
+        <div
           className="news-card "
           style={{
             backgroundImage:
@@ -55,62 +54,64 @@ function News() {
             backgroundRepeat: "no-repeat center",
           }}
         >
-          <div className="news-card-contend"> 
-          <div className="card-titulo">
-            <h3>Notícia</h3>
-          </div>
-          <div className="card-texto">
-          <p className="text-danger">03 de outubro de 2022</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              tincidunt non ex non scelerisque. Duis finibus scelerisque turpis.
-            </p>
-          </div>
-          <p className="form-text">tag</p>
+          <div className="news-card-contend">
+            <div className="card-titulo">
+              <h3>Notícia</h3>
+            </div>
+            <div className="card-texto">
+              <p className="text-danger">03 de outubro de 2022</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                tincidunt non ex non scelerisque. Duis finibus scelerisque
+                turpis.
+              </p>
+            </div>
+            <p className="form-text">tag</p>
 
-          <a
-            className="btn-port"
-            href="#news"
-            // target="_black"
-          >
-            Saiba mais...
-          </a>
+            <a
+              className="btn-port"
+              href="#news"
+              // target="_black"
+            >
+              Saiba mais...
+            </a>
           </div>
         </div>
-         {/* card 1 */}
-         <div
+        {/* card 1 */}
+        <div
           className="news-card "
           style={{
             backgroundImage:
-              'url("https://cdn.pixabay.com/photo/2017/08/01/22/15/imac-2568270_960_720.jpg")',
+              'url("https://images.unsplash.com/photo-1619953983867-eb8426ab271e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80")',
             height: "500px",
             backgroundRepeat: "no-repeat center",
           }}
         >
-          <div className="news-card-contend"> 
-          <div className="card-titulo">
-            <h3>Notícia</h3>
-          </div>
-          <div className="card-texto">
-          <p className="text-danger">03 de outubro de 2022</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              tincidunt non ex non scelerisque. Duis finibus scelerisque turpis.
-            </p>
-          </div>
-          <p className="form-text">tag</p>
+          <div className="news-card-contend">
+            <div className="card-titulo">
+              <h3>Notícia</h3>
+            </div>
+            <div className="card-texto">
+              <p className="text-danger">03 de outubro de 2022</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                tincidunt non ex non scelerisque. Duis finibus scelerisque
+                turpis.
+              </p>
+            </div>
+            <p className="form-text">tag</p>
 
-          <a
-            className="btn-port"
-            href="#news"
-            // target="_black"
-          >
-            Saiba mais...
-          </a>
+            <a
+              className="btn-port"
+              href="#news"
+              // target="_black"
+            >
+              Saiba mais...
+            </a>
           </div>
         </div>
-         {/* card 1 */}
-         <div
+        {/* card 1 */}
+        <div
           className="news-card "
           style={{
             backgroundImage:
@@ -119,29 +120,29 @@ function News() {
             backgroundRepeat: "no-repeat center",
           }}
         >
-          <div className="news-card-contend"> 
-          <div className="card-titulo">
-            <h3>Todas as notícias</h3>
-          </div>
-          <div className="card-texto">
-          <p className="text-danger">03 de outubro de 2022</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              tincidunt non ex non scelerisque. Duis finibus scelerisque turpis.
-            </p>
-          </div>
-          <p className="form-text">tag: notícias</p>
+          <div className="news-card-contend">
+            <div className="card-titulo">
+              <h3>Todas as notícias</h3>
+            </div>
+            <div className="card-texto">
+              <p className="text-danger">03 de outubro de 2022</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                tincidunt non ex non scelerisque. Duis finibus scelerisque
+                turpis.
+              </p>
+            </div>
+            <p className="form-text">tag: notícias</p>
 
-          <a
-            className="btn-port"
-            href="#news"
-            // target="_black"
-          >
-            Saiba mais...
-          </a>
+            <a
+              className="btn-port"
+              href="#news"
+              // target="_black"
+            >
+              Saiba mais...
+            </a>
           </div>
         </div>
-
       </div>
     </div>
   );

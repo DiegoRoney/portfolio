@@ -103,12 +103,18 @@
   
   align-items: flex-start; 
 
-  width: 290px;
+  width: 280px;
   height: 490px;
   
   border-radius: 12px;
 } 
-.news-card-contend:hover {
+.news-card:hover {
+  transition: all 0.5s ease-in-out 0s;
+  
+  width: 350px;
+  height: 520px;
+} 
+.news-card-contend:hover {  
   
   background: rgb(0, 0, 0);
   background: linear-gradient(357deg, 
@@ -128,7 +134,9 @@
 }   */
 
 @media screen and (max-width: 550px) {
-  .news-card {   
+  .news-card {  
+    width: 320px;
+   
     color: #ffffff;
     background: #ff416c;    
     background: -webkit-linear-gradient(to right, #3a3a3a, #131313);
