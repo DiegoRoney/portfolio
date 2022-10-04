@@ -88,7 +88,7 @@ function News() {
               </p>
             </div>
             <p className="form-text">
-            <svg
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -143,7 +143,7 @@ function News() {
               </p>
             </div>
             <p className="form-text">
-            <svg
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -163,7 +163,7 @@ function News() {
                 />
               </svg>
               tag
-              </p>
+            </p>
 
             <a
               className="btn-news"
@@ -198,7 +198,7 @@ function News() {
               </p>
             </div>
             <p className="form-text">
-            <svg
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -217,7 +217,8 @@ function News() {
                   d="M6 6h.008v.008H6V6z"
                 />
               </svg>
-              tag: notícias</p>
+              tag: notícias
+            </p>
 
             <a
               className="btn-news"
@@ -228,7 +229,6 @@ function News() {
             </a>
           </div>
         </div>
-
       </div>
     </div>
   );

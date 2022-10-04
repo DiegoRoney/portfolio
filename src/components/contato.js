@@ -2,7 +2,7 @@ import "../style/contato.css";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 
-import * as ReactDOM from 'react-dom';
+import * as ReactDOM from "react-dom";
 
 function Contato() {
   const [name, setName] = useState("");
@@ -31,7 +31,9 @@ function Contato() {
       )
       .then(
         (response) => {
-          const root = ReactDOM.createRoot(document.getElementById('mensagemenviada'));
+          const root = ReactDOM.createRoot(
+            document.getElementById("mensagemenviada")
+          );
           const element = <h3>Mensagem enviada!</h3>;
           root.render(element);
 
@@ -43,25 +45,19 @@ function Contato() {
           console.log("ERRO: ", err);
         }
       );
-
   }
   return (
     <div id="contato" className="contato">
       <div className="container">
-       
-        
-
         <form className="form" onSubmit={sendEmail}>
-        <h2 className="title text-center">Contato</h2>
-        <p> 
-        Vamos desenvolver algo novo juntos. 
-        Conecte-se comigo pelo telefone:<strong> 77 99202-8886 </strong> 
-        ou e-mail: <strong> diego-roney@outlook.com </strong> 
-       
-        </p>
-        <p>Ou me envie uma mensagem!</p>
-        
-        
+          <h2 className="title text-center">Contato</h2>
+          <p>
+            Vamos desenvolver algo novo juntos. Conecte-se comigo pelo telefone:
+            <strong> 77 99202-8886 </strong>
+            ou e-mail: <strong> diego-roney@outlook.com </strong>
+          </p>
+          <p>Ou me envie uma mensagem!</p>
+
           <input
             className="input"
             type="text"
@@ -69,7 +65,7 @@ function Contato() {
             onChange={(e) => setName(e.target.value)}
             value={name}
           />
-          
+
           <input
             className="input"
             type="email"
@@ -89,7 +85,6 @@ function Contato() {
           <input className="button" type="submit" value="Enviar" />
 
           <div id="mensagemenviada" className="msg-send text-center"></div>
-
         </form>
       </div>
     </div>

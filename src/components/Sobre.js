@@ -2,11 +2,9 @@ import React from "react";
 import "../style/sobre.css";
 import Diego from "../img/programadores.jpg";
 
-import TabPanel from '../components/TabPanel'
-
+import TabPanel from "../components/TabPanel";
 
 function Sobre() {
-  
   return (
     <div id="sobre" className="sobre">
       <div className="conteudo">
@@ -16,12 +14,10 @@ function Sobre() {
 
         <div className="item">
           <h1>Sobre mim</h1>
-         
-              {/* descrição */}
-                <TabPanel />
-              {/* descrição */}
 
-
+          {/* descrição */}
+          <TabPanel />
+          {/* descrição */}
         </div>
       </div>
     </div>
