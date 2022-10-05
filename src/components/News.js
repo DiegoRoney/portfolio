@@ -66,7 +66,6 @@ function News() {
                 turpis.
               </p>
             </div>
-<<<<<<< HEAD
             <p className="form-text">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -89,9 +88,6 @@ function News() {
               </svg>
               tags
             </p>
-=======
-            <p className="form-text">tag</p>
->>>>>>> parent of f8f0505 (Merge pull request #26 from DiegoRoney/react-dev)
 
             <a
               className="btn-port"
@@ -124,7 +120,6 @@ function News() {
                 turpis.
               </p>
             </div>
-<<<<<<< HEAD
             <p className="form-text">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -147,9 +142,6 @@ function News() {
               </svg>
               tag
             </p>
-=======
-            <p className="form-text">tag</p>
->>>>>>> parent of f8f0505 (Merge pull request #26 from DiegoRoney/react-dev)
 
             <a
               className="btn-port"
@@ -182,7 +174,6 @@ function News() {
                 turpis.
               </p>
             </div>
-<<<<<<< HEAD
             <p className="form-text">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -205,9 +196,6 @@ function News() {
               </svg>
               tag: notícias
             </p>
-=======
-            <p className="form-text">tag: notícias</p>
->>>>>>> parent of f8f0505 (Merge pull request #26 from DiegoRoney/react-dev)
 
             <a
               className="btn-port"
