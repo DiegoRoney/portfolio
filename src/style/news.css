@@ -58,7 +58,7 @@
   height: 35px;
   border-radius: 4px; 
   cursor: pointer;
-  background: rgba(20, 20, 20, 0);
+  /* background: rgba(20, 20, 20, 0); */
   font-size: 12px;
   transition: background-color, transform 0.8s;
 }

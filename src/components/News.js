@@ -36,7 +36,7 @@ function News() {
             <p className="form-text">tag: Programação, React Js</p>
 
             <a
-              className="btn-port"
+              className="btn-news"
               href="#news"
               // target="_black"
             >
@@ -90,7 +90,7 @@ function News() {
             </p>
 
             <a
-              className="btn-port"
+              className="btn-news"
               href="#news"
               // target="_black"
             >
@@ -144,7 +144,7 @@ function News() {
             </p>
 
             <a
-              className="btn-port"
+              className="btn-news"
               href="#news"
               // target="_black"
             >
@@ -198,7 +198,7 @@ function News() {
             </p>
 
             <a
-              className="btn-port"
+              className="btn-news"
               href="#news"
               // target="_black"
             >
