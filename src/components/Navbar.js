@@ -12,7 +12,10 @@ export default function Navbar({ acao }) {
           <img src={LogoDiego} alt="logo" />
         </a>
       </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of f8f0505 (Merge pull request #26 from DiegoRoney/react-dev)
       {/*! botoes botoes */}
       <button
         className="hamburger"

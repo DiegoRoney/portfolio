@@ -1,6 +1,7 @@
 import "../style/news.css";
 import React from "react";
 
+
 function News() {
   return (
     <div id="news" className="news">
@@ -32,31 +33,10 @@ function News() {
                 turpis.
               </p>
             </div>
-            <p className="form-text">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-6 h-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z"
-                />
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M6 6h.008v.008H6V6z"
-                />
-              </svg>
-              : Programação, React Js
-            </p>
+            <p className="form-text">tag: Programação, React Js</p>
 
             <a
-              className="btn-news"
+              className="btn-port"
               href="#news"
               // target="_black"
             >
@@ -64,8 +44,7 @@ function News() {
             </a>
           </div>
         </div>
-
-        {/* card 2 */}
+        {/* card 1 */}
         <div
           className="news-card "
           style={{
@@ -87,6 +66,7 @@ function News() {
                 turpis.
               </p>
             </div>
+<<<<<<< HEAD
             <p className="form-text">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -109,9 +89,12 @@ function News() {
               </svg>
               tags
             </p>
+=======
+            <p className="form-text">tag</p>
+>>>>>>> parent of f8f0505 (Merge pull request #26 from DiegoRoney/react-dev)
 
             <a
-              className="btn-news"
+              className="btn-port"
               href="#news"
               // target="_black"
             >
@@ -119,8 +102,7 @@ function News() {
             </a>
           </div>
         </div>
-        {/* card 3 */}
-
+        {/* card 1 */}
         <div
           className="news-card "
           style={{
@@ -142,6 +124,7 @@ function News() {
                 turpis.
               </p>
             </div>
+<<<<<<< HEAD
             <p className="form-text">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -164,9 +147,12 @@ function News() {
               </svg>
               tag
             </p>
+=======
+            <p className="form-text">tag</p>
+>>>>>>> parent of f8f0505 (Merge pull request #26 from DiegoRoney/react-dev)
 
             <a
-              className="btn-news"
+              className="btn-port"
               href="#news"
               // target="_black"
             >
@@ -174,8 +160,7 @@ function News() {
             </a>
           </div>
         </div>
-
-        {/* card 4 */}
+        {/* card 1 */}
         <div
           className="news-card "
           style={{
@@ -197,6 +182,7 @@ function News() {
                 turpis.
               </p>
             </div>
+<<<<<<< HEAD
             <p className="form-text">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -219,9 +205,12 @@ function News() {
               </svg>
               tag: notícias
             </p>
+=======
+            <p className="form-text">tag: notícias</p>
+>>>>>>> parent of f8f0505 (Merge pull request #26 from DiegoRoney/react-dev)
 
             <a
-              className="btn-news"
+              className="btn-port"
               href="#news"
               // target="_black"
             >
