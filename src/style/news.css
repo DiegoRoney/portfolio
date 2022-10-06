@@ -101,7 +101,7 @@
 .news-card-contend:hover {
   background: rgb(0, 0, 0);
   background: linear-gradient(357deg,
-      rgb(71, 71, 71) 26%,
+      rgb(44, 44, 44) 26%,
       rgba(0, 212, 255, 0.011642156862745057) 100%);
 
 }
