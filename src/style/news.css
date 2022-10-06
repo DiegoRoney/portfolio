@@ -101,7 +101,7 @@
 .news-card-contend:hover {
   background: rgb(0, 0, 0);
   background: linear-gradient(357deg,
-      rgb(44, 44, 44) 26%,
+      #141414 36%,
       rgba(0, 212, 255, 0.011642156862745057) 100%);
 
 }
@@ -122,7 +122,7 @@
 .news-card:hover {
   transition: all 0.5s ease-in-out 0s;
   width: 350px;
-  height: 520px;
+  height: 620px;
 }
 
 .card-titulo {
@@ -148,6 +148,11 @@
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #1f1f1f, #181818);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .news-card:hover {
+    transition: all 0.5s ease-in-out 0s;
+    width: 330px;
+    height: 520px;
   }
 
   .news-container {
