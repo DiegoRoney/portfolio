@@ -21,7 +21,7 @@ function Footer() {
           {/* portfólio */}
           <a
             className="links-redes"
-            href="https://diegoroney.github.io/portfolio-react/"
+            href="https://diegoroney.github.io/portfolio"
             target="_black"
           >
             <img src={iconDiego} alt="logo" />
