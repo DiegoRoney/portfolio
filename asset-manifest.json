@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.0a459725.css",
+    "main.js": "/portfolio/static/js/main.6b51e358.js",
+    "static/js/787.aeca62f9.chunk.js": "/portfolio/static/js/787.aeca62f9.chunk.js",
+    "static/media/gamer.mp4": "/portfolio/static/media/gamer.c1bd02724d1ab504abaf.mp4",
+    "static/media/qrcode.png": "/portfolio/static/media/qrcode.da586c8a940b445e33af.png",
+    "static/media/comp.jpg": "/portfolio/static/media/comp.5fe8bd6f05922caff8a3.jpg",
+    "static/media/spotfy.jpg": "/portfolio/static/media/spotfy.d564fbc2b0b61596b9c1.jpg",
+    "static/media/citrus.jpg": "/portfolio/static/media/citrus.e4c93748ae0e7f8e7d4c.jpg",
+    "static/media/drone.jpg": "/portfolio/static/media/drone.cb667a9e97e148ded7b8.jpg",
+    "static/media/skrillex.jpg": "/portfolio/static/media/skrillex.7fc7265f459cd57a8020.jpg",
+    "static/media/icon-email.png": "/portfolio/static/media/icon-email.3a5cd5b21d835c809921.png",
+    "static/media/tel.png": "/portfolio/static/media/tel.da20a36cc167265c517d.png",
+    "static/media/icon-github.png": "/portfolio/static/media/icon-github.060aa619999da32e2155.png",
+    "static/media/programadores.jpg": "/portfolio/static/media/programadores.993b3bb1f4091f9732c2.jpg",
+    "static/media/icon-diego.png": "/portfolio/static/media/icon-diego.de17df783a190f7e4965.png",
+    "static/media/icon-instagram.png": "/portfolio/static/media/icon-instagram.35edd2e8ed8f381779c8.png",
+    "static/media/icon-in.png": "/portfolio/static/media/icon-in.661c7495e6549f14495c.png",
+    "static/media/d-diego.png": "/portfolio/static/media/d-diego.ab288193ef7b067739a4.png",
+    "index.html": "/portfolio/index.html",
+    "main.0a459725.css.map": "/portfolio/static/css/main.0a459725.css.map",
+    "main.6b51e358.js.map": "/portfolio/static/js/main.6b51e358.js.map",
+    "787.aeca62f9.chunk.js.map": "/portfolio/static/js/787.aeca62f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a459725.css",
+    "static/js/main.6b51e358.js"
+  ]
+}
