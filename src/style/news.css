@@ -1,7 +1,4 @@
-mark{
-  
-  color: #ff4b2b;
-}
+
 .info {
   display: flex;
   justify-content: center;
@@ -76,6 +73,10 @@ mark{
 }
 
 /*! card */
+.card-texto{
+  color: #b8b8b8;
+  font-size: 13px;
+}
 
 /* .news-card img {
   opacity: 0.4;
