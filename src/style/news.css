@@ -1,11 +1,9 @@
-
 .info {
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
   color: #ffffff;
-
   width: 350px;
   margin: 25px;
 }
@@ -39,7 +37,6 @@
   align-content: center;
   /* max-width: 1450px; */
 }
-
 
 .btn-news,
 .news,
@@ -106,13 +103,12 @@
 .news-card-contend:hover {
   background: rgb(0, 0, 0);
   background: linear-gradient(357deg,
-      #141414 46%,
+      #441101 46%,
       rgba(0, 212, 255, 0.011642156862745057) 100%);
 
 }
 
 .news-card {
-
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -146,14 +142,12 @@
 @media screen and (max-width: 550px) {
   .news-card {
     width: 320px;
-
     color: #ffffff;
     background: #ff416c;
-    background: -webkit-linear-gradient(to right, #3a3a3a, #131313);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1f1f1f, #181818);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #3a3a3a, #131313);   
+    background: linear-gradient(to right, #1f1f1f, #181818);    
   }
+
   .news-card:hover {
     transition: all 0.5s ease-in-out 0s;
     width: 330px;
