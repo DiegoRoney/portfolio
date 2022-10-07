@@ -1,3 +1,7 @@
+mark{
+  
+  color: #ff4b2b;
+}
 .info {
   display: flex;
   justify-content: center;
@@ -93,7 +97,7 @@
   z-index: 1;
   background: rgb(94, 94, 94);
   background: linear-gradient(357deg,
-      #191919 26%,
+      #191919 56%,
       rgba(0, 212, 255, 0.011642156862745057) 100%);
 
 }
@@ -101,7 +105,7 @@
 .news-card-contend:hover {
   background: rgb(0, 0, 0);
   background: linear-gradient(357deg,
-      #141414 36%,
+      #141414 46%,
       rgba(0, 212, 255, 0.011642156862745057) 100%);
 
 }

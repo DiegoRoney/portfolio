@@ -16,21 +16,24 @@ function News() {
           className="news-card "
           style={{
             backgroundImage:
-              'url("https://cdn.pixabay.com/photo/2014/12/15/12/51/coffee-568968_960_720.jpg")',
+              'url("https://images.unsplash.com/photo-1595079836278-25b7ad6d5ddb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")',
             height: "500px",
-            backgroundRepeat: "no-repeat center",
+            backgroundSize:"contain", 
           }}
         >
           <div className="news-card-contend">
             <div className="card-titulo">
-              <h3>Notícia</h3>
+              <h3>Gerador de Qrcode</h3>
             </div>
             <div className="card-texto">
-              <p className="text-danger">03 de outubro de 2022</p>
+              <p className="text-muted">03 de outubro de 2022</p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                tincidunt non ex non scelerisque. Duis finibus scelerisque
-                turpis.
+              Web App desenvolvido para criação de códigos Qr.  <strong>COLE → GERE → BAIXE</strong>.
+              <p>
+              Para o desenvolvimento foram utilizadas as tecnologias: React js e a api Qrcode
+              </p>
+
+
               </p>
             </div>
             <p className="form-text">
@@ -53,14 +56,14 @@ function News() {
                   d="M6 6h.008v.008H6V6z"
                 />
               </svg>
-              tag: Programação, React Js</p>
+              tag: Api, React Js</p>
 
             <a
               className="btn-news"
               href="#news"
               // target="_black"
             >
-              Saiba mais...
+              Leia mais...
             </a>
           </div>
         </div>
@@ -69,21 +72,20 @@ function News() {
           className="news-card "
           style={{
             backgroundImage:
-              'url("https://i.pinimg.com/736x/e2/92/a4/e292a4bf4a346c450c79e18c09d59f1c.jpg")',
-            height: "500px",
-            backgroundRepeat: "no-repeat center",
+              'url("https://img.freepik.com/fotos-gratis/conjunto-de-fruta-laranja-suculenta-fresca-sobre-a-natureza-verde_1150-17507.jpg?w=826&t=st=1665145856~exp=1665146456~hmac=3ee949c2a32264191a678c16af99f3c92623720f7fc70293a3c0771657eb3d67")',
+            height: "500px",              
+            backgroundSize:"contain",         
+            // backgroundRepeat: "no-repeat center",
           }}
         >
           <div className="news-card-contend">
             <div className="card-titulo">
-              <h3>Notícia</h3>
+              <h3>Citru's</h3>
             </div>
             <div className="card-texto">
-              <p className="text-danger">03 de outubro de 2022</p>
+              <p className="text-muted">03 de outubro de 2022</p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                tincidunt non ex non scelerisque. Duis finibus scelerisque
-                turpis.
+              Pequeno e-commerce para encomendas de produtos da agricultura familiar. Nele o agricultor pode apresentar seus produtos e preços, além da disponibilidade de fazer encomendas.
               </p>
             </div>
             <p className="form-text">
@@ -114,7 +116,7 @@ function News() {
               href="#news"
               // target="_black"
             >
-              Saiba mais...
+              Leia mais...
             </a>
           </div>
         </div>
@@ -123,21 +125,19 @@ function News() {
           className="news-card "
           style={{
             backgroundImage:
-              'url("https://images.unsplash.com/photo-1619953983867-eb8426ab271e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80")',
+              'url("https://img.freepik.com/fotos-gratis/parabens-voce-fez-um-teste-muito-bem_637285-8618.jpg?w=826&t=st=1665145531~exp=1665146131~hmac=36322c7855914b2b898d555c7d303d63211c93db8e60efab61915fceebf5b892")',
             height: "500px",
-            backgroundRepeat: "no-repeat center",
+            backgroundSize:"contain", 
           }}
         >
           <div className="news-card-contend">
             <div className="card-titulo">
-              <h3>Notícia</h3>
+              <h3>Ensino de Computação</h3>
             </div>
             <div className="card-texto">
-              <p className="text-danger">03 de outubro de 2022</p>
+              <p className="text-muted">03 de outubro de 2022</p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                tincidunt non ex non scelerisque. Duis finibus scelerisque
-                turpis.
+              Landing Page para apresentação sobre o que é a Computação da Educação básica e sobre o que é necessário para implementação deste ensino na rede pública de ensino.
               </p>
             </div>
             <p className="form-text">
@@ -168,7 +168,7 @@ function News() {
               href="#news"
               // target="_black"
             >
-              Saiba mais...
+              Leia mais...
             </a>
           </div>
         </div>
@@ -179,7 +179,7 @@ function News() {
             backgroundImage:
               'url("https://img.myloview.com.br/quadros/mulher-feliz-usando-o-laptop-no-cafe-jovem-linda-sentada-em-uma-cafeteria-e-trabalhando-no-computador-700-99715801.jpg")',
             height: "500px",
-            backgroundRepeat: "no-repeat center",
+            backgroundSize:"contain",  
           }}
         >
           <div className="news-card-contend">
@@ -187,11 +187,11 @@ function News() {
               <h3>Todas as notícias</h3>
             </div>
             <div className="card-texto">
-              <p className="text-danger">03 de outubro de 2022</p>
+              <p className="text-muted">03 de outubro de 2022</p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                tincidunt non ex non scelerisque. Duis finibus scelerisque
-                turpis.
+              Todos os projetos desenvolvidos e/ou em desenvolvimento por mim, serão publicados no Blog, ele é um complemento deste Portfólio.
+              <p className="text-warning"> Ainda não é possível acessa-lo, o Blog está em desenvolvimento.
+                </p> 
               </p>
             </div>
             <p className="form-text">
@@ -214,7 +214,7 @@ function News() {
                   d="M6 6h.008v.008H6V6z"
                 />
               </svg>
-              tag: notícias
+              tag: React, Gatsby
             </p>
 
             <a
@@ -222,7 +222,7 @@ function News() {
               href="#news"
               // target="_black"
             >
-              Saiba mais...
+              Leia mais...
             </a>
           </div>
         </div>
