@@ -60,8 +60,8 @@ function News() {
 
             <a
               className="btn-news"
-              href="#news"
-              // target="_black"
+              href="https://blog-diegoroney.vercel.app/blog/11-10-22_qrcode"
+              target="_black"
             >
               Leia mais...
             </a>
@@ -113,8 +113,8 @@ function News() {
 
             <a
               className="btn-news"
-              href="#news"
-              // target="_black"
+              href="https://blog-diegoroney.vercel.app/blog/10-10-22_Citrus"
+              target="_black"
             >
               Leia mais...
             </a>
@@ -165,8 +165,8 @@ function News() {
 
             <a
               className="btn-news"
-              href="#news"
-              // target="_black"
+              href="https://blog-diegoroney.vercel.app/blog/10-10-22"
+              target="_black"
             >
               Leia mais...
             </a>
@@ -214,13 +214,13 @@ function News() {
                   d="M6 6h.008v.008H6V6z"
                 />
               </svg>
-              tag: React, Gatsby
+              tag: React, Nestjs
             </p>
 
             <a
               className="btn-news"
-              href="#news"
-              // target="_black"
+              href="https://blog-diegoroney.vercel.app/"
+              target="_black"
             >
               Leia mais...
             </a>
