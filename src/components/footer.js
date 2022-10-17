@@ -76,7 +76,7 @@ function Footer() {
           <a href="#portfolio">
             <p>Portfólio</p>
           </a>
-          <a href="#news">
+          <a href="https://blog-diegoroney.vercel.app/">
             <p>Blog</p>
           </a>
           {/* <p>item</p> */}
