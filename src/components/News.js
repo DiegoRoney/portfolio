@@ -165,7 +165,7 @@ function News() {
 
             <a
               className="btn-news"
-              href="https://blog-diegoroney.vercel.app/blog/10-10-22"
+              href="https://blog-diegoroney.vercel.app/blog/12-10-22_ensino_comput"
               target="_black"
             >
               Leia mais...
