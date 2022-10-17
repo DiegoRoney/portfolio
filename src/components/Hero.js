@@ -24,7 +24,7 @@ function Hero() {
             }}
           />
         </div>
-        <p>⚠️Em construção⚠️</p>
+        {/* <p>info</p> */}
       </div>
     </div>
   );
