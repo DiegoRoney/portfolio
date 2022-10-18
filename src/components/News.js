@@ -190,8 +190,8 @@ function News() {
               <p className="text-muted">03 de outubro de 2022</p>
               <p>
               Todos os projetos desenvolvidos e/ou em desenvolvimento por mim, serão publicados no Blog, ele é um complemento deste Portfólio.
-              <p className="text-warning"> Ainda não é possível acessa-lo, o Blog está em desenvolvimento.
-                </p> 
+              {/* <p className="text-warning"> Ainda não é possível acessa-lo, o Blog está em desenvolvimento.
+                </p>  */}
               </p>
             </div>
             <p className="form-text">
