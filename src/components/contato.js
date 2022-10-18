@@ -52,7 +52,8 @@ function Contato() {
         <form className="form" onSubmit={sendEmail}>
           <h2 className="title text-center">Contato</h2>
           <p>
-            Vamos desenvolver algo novo juntos. Conecte-se comigo pelo telefone:
+            <span> Vamos desenvolver algo novo juntos. </span> Conecte-se comigo
+            pelo telefone:
             <strong> 77 99202-8886 </strong>
             ou e-mail: <strong> diego-roney@outlook.com </strong>
           </p>
