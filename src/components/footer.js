@@ -8,7 +8,10 @@ import iconIn from "../img/icons/redes/icon-in.png";
 import iconIg from "../img/icons/redes/icon-instagram.png";
 import iconTel from "../img/icons/redes/tel.png";
 
-import logoDiego from "../img/icons/redes/d-diego.png";
+import logoDiegoInc from "../img/icons/redes/diego-inc.png";
+
+// import logoDiegoProgramming from "../img/icons/redes/diego-pro-w.png";
+// import logoDiegoDesign from "../img/icons/redes/diego-design-w.png";
 
 function Footer() {
   return (
@@ -90,7 +93,11 @@ function Footer() {
         </div>
 
         <div className="container-colunas-item">
-          <img src={logoDiego} alt="logo2" />
+          <img src={logoDiegoInc} alt="logo2" />  
+
+          {/* <img src={logoDiegoProgramming} alt="logo2" />
+          <img src={logoDiegoDesign} alt="logo2" /> */}
+
         </div>
       </section>
 
