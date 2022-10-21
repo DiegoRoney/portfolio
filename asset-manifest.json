@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.dcacdfb5.css",
-    "main.js": "/portfolio/static/js/main.0850ef58.js",
+    "main.js": "/portfolio/static/js/main.aa47c571.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio/static/js/787.aeca62f9.chunk.js",
     "static/media/gamer.mp4": "/portfolio/static/media/gamer.c1bd02724d1ab504abaf.mp4",
     "static/media/qrcode.png": "/portfolio/static/media/qrcode.da586c8a940b445e33af.png",
@@ -12,6 +12,8 @@
     "static/media/skrillex.jpg": "/portfolio/static/media/skrillex.7fc7265f459cd57a8020.jpg",
     "static/media/icon-email.png": "/portfolio/static/media/icon-email.3a5cd5b21d835c809921.png",
     "static/media/tel.png": "/portfolio/static/media/tel.da20a36cc167265c517d.png",
+    "static/media/diego-design-w.png": "/portfolio/static/media/diego-design-w.5dcd6dd2c4c8221b95e7.png",
+    "static/media/diego-pro-w.png": "/portfolio/static/media/diego-pro-w.bb84343aa9586060ddb7.png",
     "static/media/icon-github.png": "/portfolio/static/media/icon-github.060aa619999da32e2155.png",
     "static/media/programadores.jpg": "/portfolio/static/media/programadores.993b3bb1f4091f9732c2.jpg",
     "static/media/icon-diego.png": "/portfolio/static/media/icon-diego.de17df783a190f7e4965.png",
@@ -21,11 +23,11 @@
     "static/media/diego-inc.png": "/portfolio/static/media/diego-inc.185612013e5d3f67f6e6.png",
     "index.html": "/portfolio/index.html",
     "main.dcacdfb5.css.map": "/portfolio/static/css/main.dcacdfb5.css.map",
-    "main.0850ef58.js.map": "/portfolio/static/js/main.0850ef58.js.map",
+    "main.aa47c571.js.map": "/portfolio/static/js/main.aa47c571.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dcacdfb5.css",
-    "static/js/main.0850ef58.js"
+    "static/js/main.aa47c571.js"
   ]
 }
