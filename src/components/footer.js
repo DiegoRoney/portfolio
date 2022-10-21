@@ -10,8 +10,8 @@ import iconTel from "../img/icons/redes/tel.png";
 
 import logoDiegoInc from "../img/icons/redes/diego-inc.png";
 
-// import logoDiegoProgramming from "../img/icons/redes/diego-pro-w.png";
-// import logoDiegoDesign from "../img/icons/redes/diego-design-w.png";
+ import logoDiegoProgramming from "../img/icons/redes/diego-pro-w.png";
+ import logoDiegoDesign from "../img/icons/redes/diego-design-w.png";
 
 function Footer() {
   return (
@@ -82,6 +82,9 @@ function Footer() {
           <a href="https://blog-diegoroney.vercel.app/">
             <p>Blog</p>
           </a>
+          <a href="https://diegoroney.github.io/design/">
+            <p>Design</p>
+          </a>
           {/* <p>item</p> */}
         </div>
 
@@ -95,8 +98,8 @@ function Footer() {
         <div className="container-colunas-item">
           <img src={logoDiegoInc} alt="logo2" />  
 
-          {/* <img src={logoDiegoProgramming} alt="logo2" />
-          <img src={logoDiegoDesign} alt="logo2" /> */}
+           <img src={logoDiegoProgramming} alt="logo2" />
+          <img src={logoDiegoDesign} alt="logo2" />
 
         </div>
       </section>
