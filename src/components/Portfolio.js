@@ -7,7 +7,9 @@ import comp from "../img/site/comp.jpg";
 import drone from "../img/site/drone.jpg";
 import skrillex from "../img/site/skrillex.jpg";
 import spotfy from "../img/site/spotfy.jpg";
-//import coffe from "../img/site/coffe.png";
+import design from "../img/site/design.png";
+import freeseeds from "../img/site/freeseeds.png";
+import blog from "../img/site/blog.png";
 
 function Portfolio() {
   return (
@@ -16,6 +18,67 @@ function Portfolio() {
         <h1>Portfólio </h1>
       </div>
       <div className="portfolio-container">
+        {/* card 7 */}
+        <div className="portfolio-card ">
+          <div className="card-icon">
+            <img src={design} alt="design" />
+          </div>
+          <div className="card-titulo">
+            <h3>Desing Portfólio</h3>
+          </div>
+          <div className="card-texto">
+            <p>Portfólio para as artes criadas</p>
+          </div>
+          <p className="form-text">html5, Js, css e Bootstrap</p>
+
+          <a
+            className="btn-port"
+            href="https://diegoroney.github.io/design/"
+            target="_black"
+          >
+            Visite o site
+          </a>
+        </div>
+        {/* card 8 */}
+        <div className="portfolio-card ">
+          <div className="card-icon">
+            <img src={freeseeds} alt="Citru's" />
+          </div>
+          <div className="card-titulo">
+            <h3>Free Seeds</h3>
+          </div>
+          <div className="card-texto">
+            <p>Compartilhe o futuro</p>
+          </div>
+          <p className="form-text">React js</p>
+          <a
+            className="btn-port"
+            href="https://diegoroney.github.io/freeseeds/"
+            target="_black"
+          >
+            Visite o site
+          </a>
+        </div>
+        {/* card 9 */}
+        <div className="portfolio-card ">
+          <div className="card-icon">
+            <img src={blog} alt="Citru's" />
+          </div>
+          <div className="card-titulo">
+            <h3>Blog</h3>
+          </div>
+          <div className="card-texto">
+            <p>Blog em Next js</p>
+          </div>
+          <p className="form-text">Next js</p>
+          <a
+            className="btn-port"
+            href="https://blog-diegoroney.vercel.app/"
+            target="_black"
+          >
+            Visite o site
+          </a>
+        </div>
         {/* card 1 */}
         <div className="portfolio-card ">
           <div className="card-icon">
@@ -139,8 +202,16 @@ function Portfolio() {
             Visite o site
           </a>
         </div>
+
+        
       </div>
-      ver mais...
+
+      {/* <div className="vermais">
+        <a href="https://blog-diegoroney.vercel.app/" target="_black">
+          <h4>ver mais...</h4>
+        </a>
+      </div> */}
+
     </div>
   );
 }
