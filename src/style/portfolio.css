@@ -12,6 +12,13 @@
 
 }
 
+.new{
+  background-color: #ffa600;
+  color: #f20544;
+  font-size: 0.8rem;
+  padding: 5px;
+  border-radius: 10px;
+}
 .btn-port,
 .portfolio,
 .btn-port a {

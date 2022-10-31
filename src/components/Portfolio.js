@@ -24,7 +24,9 @@ function Portfolio() {
             <img src={design} alt="design" />
           </div>
           <div className="card-titulo">
-            <h3>Desing Portfólio</h3>
+            <h3>
+              <span className="new">New</span> Desing Portfólio
+            </h3>
           </div>
           <div className="card-texto">
             <p>Portfólio para as artes criadas</p>
@@ -45,7 +47,9 @@ function Portfolio() {
             <img src={freeseeds} alt="Citru's" />
           </div>
           <div className="card-titulo">
-            <h3>Free Seeds</h3>
+            <h3>
+              <span className="new">New</span> Free Seeds
+            </h3>
           </div>
           <div className="card-texto">
             <p>Compartilhe o futuro</p>
@@ -65,7 +69,9 @@ function Portfolio() {
             <img src={blog} alt="Citru's" />
           </div>
           <div className="card-titulo">
-            <h3>Blog</h3>
+            <h3>
+              <span className="new">New</span> Blog
+            </h3>
           </div>
           <div className="card-texto">
             <p>Blog em Next js</p>
@@ -202,8 +208,6 @@ function Portfolio() {
             Visite o site
           </a>
         </div>
-
-        
       </div>
 
       {/* <div className="vermais">
@@ -211,7 +215,6 @@ function Portfolio() {
           <h4>ver mais...</h4>
         </a>
       </div> */}
-
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../style/navbar.css";
-import LogoDiego from "../img/icons/redes/d-diego.png";
+import LogoDiego from "../img/icons/redes/diego-pro-logo.png";
 
 export default function Navbar({ acao }) {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
