@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a351a1a8.css",
-    "main.js": "/portfolio/static/js/main.cc0ec758.js",
+    "main.js": "/portfolio/static/js/main.0e4ee9d3.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio/static/js/787.aeca62f9.chunk.js",
     "static/media/gamer.mp4": "/portfolio/static/media/gamer.c1bd02724d1ab504abaf.mp4",
-    "static/media/qrcode.png": "/portfolio/static/media/qrcode.da586c8a940b445e33af.png",
-    "static/media/freeseeds.png": "/portfolio/static/media/freeseeds.43ec919c79220502e677.png",
-    "static/media/design.png": "/portfolio/static/media/design.107d29c30a5e003798e5.png",
     "static/media/comp.jpg": "/portfolio/static/media/comp.5fe8bd6f05922caff8a3.jpg",
     "static/media/spotfy.jpg": "/portfolio/static/media/spotfy.d564fbc2b0b61596b9c1.jpg",
     "static/media/citrus.jpg": "/portfolio/static/media/citrus.e4c93748ae0e7f8e7d4c.jpg",
     "static/media/drone.jpg": "/portfolio/static/media/drone.cb667a9e97e148ded7b8.jpg",
-    "static/media/blog.png": "/portfolio/static/media/blog.aece86252d6b75e1f270.png",
     "static/media/skrillex.jpg": "/portfolio/static/media/skrillex.7fc7265f459cd57a8020.jpg",
+    "static/media/freeseeds.png": "/portfolio/static/media/freeseeds.3e243fde6558f61bfa71.png",
+    "static/media/design.png": "/portfolio/static/media/design.2588f20ce9fe5a17e56b.png",
+    "static/media/qrcode.png": "/portfolio/static/media/qrcode.40189be68c3a668df18c.png",
     "static/media/icon-email.png": "/portfolio/static/media/icon-email.3a5cd5b21d835c809921.png",
+    "static/media/blog.png": "/portfolio/static/media/blog.8d81b1355dab9d3e023f.png",
     "static/media/tel.png": "/portfolio/static/media/tel.da20a36cc167265c517d.png",
     "static/media/diego-design-w.png": "/portfolio/static/media/diego-design-w.5dcd6dd2c4c8221b95e7.png",
     "static/media/diego-pro-w.png": "/portfolio/static/media/diego-pro-w.bb84343aa9586060ddb7.png",
@@ -25,11 +25,11 @@
     "static/media/diego-inc.png": "/portfolio/static/media/diego-inc.185612013e5d3f67f6e6.png",
     "index.html": "/portfolio/index.html",
     "main.a351a1a8.css.map": "/portfolio/static/css/main.a351a1a8.css.map",
-    "main.cc0ec758.js.map": "/portfolio/static/js/main.cc0ec758.js.map",
+    "main.0e4ee9d3.js.map": "/portfolio/static/js/main.0e4ee9d3.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a351a1a8.css",
-    "static/js/main.cc0ec758.js"
+    "static/js/main.0e4ee9d3.js"
   ]
 }
