@@ -3,11 +3,11 @@ import "./App.css";
 import React, { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 import Servico from "./components/Servico";
 import Sobre from "./components/Sobre";
 import Portfolio from "./components/Portfolio";
-import Contato from "./components/contato";
+import Contato from "./components/Contato";
 import News from "./components/News";
 
 function App() {
