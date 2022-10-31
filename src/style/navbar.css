@@ -49,6 +49,11 @@ a {
   color: #fff;
   text-decoration: none;  
 }
+.marca-name a:before {
+  
+  background-color: #ffffff00;
+  
+}
 
 .marca-name img {
   height: 30px;
