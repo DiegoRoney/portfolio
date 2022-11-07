@@ -74,8 +74,8 @@ export default function BasicTabs() {
       <TabPanel value={value} index={0}>
         <div className="habilidades text-muted">
           <p>
-            <span> DESIGN </span> - nível avançado em de softwares de edição de
-            imagem e vídeo.
+            <span> DESIGN </span> - nível avançado com softwares de edição de
+            imagem e vídeo (Suite Adobe®).
           </p>
           <p>
             <span> PROGRAMAÇÃO </span> - Desenvolvedor Front-end.
