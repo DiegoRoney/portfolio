@@ -1,7 +1,6 @@
 import "../style/news.css";
 import React from "react";
 
-
 function News() {
   return (
     <div id="news" className="news">
@@ -18,7 +17,7 @@ function News() {
             backgroundImage:
               'url("https://images.unsplash.com/photo-1595079836278-25b7ad6d5ddb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")',
             height: "500px",
-            backgroundSize:"contain", 
+            backgroundSize: "contain",
           }}
         >
           <div className="news-card-contend">
@@ -28,16 +27,14 @@ function News() {
             <div className="card-texto">
               <p className="text-muted">03 de outubro de 2022</p>
               <p>
-              Web App desenvolvido para criação de códigos Qr.  <strong>COLE → GERE → BAIXE</strong>.
-              <p>
-              Para o desenvolvimento foram utilizadas as tecnologias: React js e a api Qrcode
-              </p>
-
-
+                Aplicativo web desenvolvido para a criação de códigos QR. <strong>Cole →
+                Gere → Baixe facilmente.</strong> Este aplicativo foi criado utilizando
+                as tecnologias React.js e a API QRCode.              
+               
               </p>
             </div>
             <p className="form-text">
-            <svg
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -56,7 +53,8 @@ function News() {
                   d="M6 6h.008v.008H6V6z"
                 />
               </svg>
-              tag: Api, React Js</p>
+              tag: Api, React Js
+            </p>
 
             <a
               className="btn-news"
@@ -73,8 +71,8 @@ function News() {
           style={{
             backgroundImage:
               'url("https://img.freepik.com/fotos-gratis/conjunto-de-fruta-laranja-suculenta-fresca-sobre-a-natureza-verde_1150-17507.jpg?w=826&t=st=1665145856~exp=1665146456~hmac=3ee949c2a32264191a678c16af99f3c92623720f7fc70293a3c0771657eb3d67")',
-            height: "500px",              
-            backgroundSize:"contain",         
+            height: "500px",
+            backgroundSize: "contain",
             // backgroundRepeat: "no-repeat center",
           }}
         >
@@ -85,7 +83,9 @@ function News() {
             <div className="card-texto">
               <p className="text-muted">03 de outubro de 2022</p>
               <p>
-              Pequeno e-commerce para encomendas de produtos da agricultura familiar. Nele o agricultor pode apresentar seus produtos e preços, além da disponibilidade de fazer encomendas.
+                Pequeno e-commerce para encomendas de produtos da agricultura
+                familiar. Nele o agricultor pode apresentar seus produtos e
+                preços, além da disponibilidade de fazer encomendas.
               </p>
             </div>
             <p className="form-text">
@@ -127,7 +127,7 @@ function News() {
             backgroundImage:
               'url("https://img.freepik.com/fotos-gratis/parabens-voce-fez-um-teste-muito-bem_637285-8618.jpg?w=826&t=st=1665145531~exp=1665146131~hmac=36322c7855914b2b898d555c7d303d63211c93db8e60efab61915fceebf5b892")',
             height: "500px",
-            backgroundSize:"contain", 
+            backgroundSize: "contain",
           }}
         >
           <div className="news-card-contend">
@@ -137,7 +137,9 @@ function News() {
             <div className="card-texto">
               <p className="text-muted">03 de outubro de 2022</p>
               <p>
-              Landing Page para apresentação sobre o que é a Computação da Educação básica e sobre o que é necessário para implementação deste ensino na rede pública de ensino.
+                Landing Page para apresentação sobre o que é a Computação da
+                Educação básica e sobre o que é necessário para implementação
+                deste ensino na rede pública de ensino.
               </p>
             </div>
             <p className="form-text">
@@ -179,7 +181,7 @@ function News() {
             backgroundImage:
               'url("https://img.myloview.com.br/quadros/mulher-feliz-usando-o-laptop-no-cafe-jovem-linda-sentada-em-uma-cafeteria-e-trabalhando-no-computador-700-99715801.jpg")',
             height: "500px",
-            backgroundSize:"contain",  
+            backgroundSize: "contain",
           }}
         >
           <div className="news-card-contend">
@@ -189,8 +191,9 @@ function News() {
             <div className="card-texto">
               <p className="text-muted">03 de outubro de 2022</p>
               <p>
-              Todos os projetos desenvolvidos e/ou em desenvolvimento por mim, serão publicados no Blog, ele é um complemento deste Portfólio.
-              {/* <p className="text-warning"> Ainda não é possível acessa-lo, o Blog está em desenvolvimento.
+                Todos os projetos desenvolvidos e/ou em desenvolvimento por mim,
+                serão publicados no Blog, ele é um complemento deste Portfólio.
+                {/* <p className="text-warning"> Ainda não é possível acessa-lo, o Blog está em desenvolvimento.
                 </p>  */}
               </p>
             </div>
