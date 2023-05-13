@@ -136,7 +136,7 @@ export default function BasicTabs() {
             Secretário Escolar - PMC<br></br>2011 – Atual
           </p>
           <p>
-            Designer Gráfico Freelancer<br></br>2018 – 2021
+            Designer Gráfico Freelancer<br></br>2018 – Atual
           </p>
           <p>
             TI - Biscoitos Condeúba <br></br>2011 - 2013
@@ -152,9 +152,9 @@ export default function BasicTabs() {
           <p>
             Graduado em <span>COMPUTAÇÃO</span> UFPB<br></br> 2017-2022.
           </p>
-          <p>
+          {/* <p>
             Programando o Futuro | Dock Tech<br></br> 2022
-          </p>
+          </p> */}
         </div>
       </TabPanel>
     </Box>
