@@ -6,8 +6,46 @@ function Servico() {
     <div id="servico" className="servico">
       <div className="servico-titulo">
         <h2>Serviços</h2>
+        <p>
+          <br></br>
+          Você está em busca de um profissional talentoso que possa elevar a
+          presença online da sua marca, criar experiências visuais impactantes e
+          desenvolver interfaces interativas de alta qualidade? Seja
+          bem-vindo(a) aos meus serviços de web design, desenvolvimento
+          front-end e edição de vídeos e imagens!
+        </p>
       </div>
+
       <div className="servicos-container">
+        {/* card 2 */}
+        <div className="servico-card ">
+          <div className="card-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="0.9"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125z"
+              />
+            </svg>
+          </div>
+          <div className="card-titulo">
+            <h3>Web Design</h3>
+          </div>
+          <div className="card-texto">
+            {" "}
+            <p><br></br>
+              Crio sites atrativos, intuitivos e responsivos, transmitindo a
+              identidade da sua marca de forma eficaz.
+            </p>
+          </div>
+        </div>
         {/* card 1 */}
         <div className="servico-card ">
           <div className="card-icon">
@@ -29,31 +67,14 @@ function Servico() {
           <div className="card-titulo">
             <h3>Dev Front-end</h3>
           </div>
-          <div className="card-texto">{/* <p>texto</p> */}</div>
-        </div>
-        {/* card 2 */}
-        <div className="servico-card ">
-          <div className="card-icon">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="0.9"
-              stroke="currentColor"
-              class="w-6 h-6"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125z"
-              />
-            </svg>
+          <div className="card-texto">
+            <p><br></br>
+              Transformo designs em interfaces interativas e otimizadas,
+              utilizando HTML, CSS e JavaScript.
+            </p>
           </div>
-          <div className="card-titulo">
-            <h3>Desenvolvimento de Sites</h3>
-          </div>
-          <div className="card-texto">{/* <p>texto</p> */}</div>
         </div>
+
         {/* card 3 */}
         <div className="servico-card">
           <div className="card-icon">
@@ -75,7 +96,12 @@ function Servico() {
           <div className="card-titulo">
             <h3>Edição de vídeo</h3>
           </div>
-          <div className="card-texto">{/* <p>texto</p> */}</div>
+          <div className="card-texto">
+            <p><br></br>
+              Transformo seus vídeos brutos em obras cinematográficas, com
+              cortes precisos, efeitos visuais e sonoros envolventes.
+            </p>
+          </div>
         </div>
         {/* card 4 */}
         <div className="servico-card ">
@@ -98,8 +124,20 @@ function Servico() {
           <div className="card-titulo">
             <h3>Edição de imagem</h3>
           </div>
-          <div className="card-texto">{/* <p>texto</p> */}</div>
+          <div className="card-texto">
+            <p><br></br>
+              Aprimoro suas fotografias, gráficos ou ilustrações, criando
+              resultados visualmente cativantes.
+            </p>
+          </div>
         </div>
+      </div>
+      <div className="servico-titulo">        
+        <p>
+          Com habilidades técnicas avançadas e atenção aos detalhes, garanto
+          resultados de alta qualidade e prazos cumpridos. Vamos dar vida às
+          suas ideias e alcançar um impacto visual impressionante!
+        </p>
       </div>
     </div>
   );

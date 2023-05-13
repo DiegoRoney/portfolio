@@ -1,8 +1,14 @@
 .servico-titulo {
   display: flex;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
-  padding: 80px;
+  align-items: center;
+  padding: 80px 30px;  
+}
+.servico-titulo p{
+  max-width: 900px;
+  width: 100%;
 }
 
 .servico {
@@ -13,7 +19,7 @@
 }
 
 .servicos-container {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   gap: 8px;
   display: flex;
   flex-direction: row;
@@ -101,7 +107,7 @@
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ff2b2b, #f20544);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    height: 120px;
+    height: 220px;
   }
 
   .servico-card svg {
