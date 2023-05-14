@@ -53,7 +53,7 @@ function News() {
                   d="M6 6h.008v.008H6V6z"
                 />
               </svg>
-              tag: Api, React Js
+              Api, React Js
             </p>
 
             <a
@@ -108,7 +108,7 @@ function News() {
                   d="M6 6h.008v.008H6V6z"
                 />
               </svg>
-              tags
+              E-commerce
             </p>
 
             <a
@@ -162,7 +162,7 @@ function News() {
                   d="M6 6h.008v.008H6V6z"
                 />
               </svg>
-              tag
+              Computação	
             </p>
 
             <a

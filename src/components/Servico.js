@@ -45,6 +45,7 @@ function Servico() {
               identidade da sua marca de forma eficaz.
             </p>
           </div>
+          
         </div>
         {/* card 1 */}
         <div className="servico-card ">
