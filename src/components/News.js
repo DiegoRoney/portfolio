@@ -217,7 +217,7 @@ function News() {
                   d="M6 6h.008v.008H6V6z"
                 />
               </svg>
-              tag: React, Nestjs
+              React, Nestjs
             </p>
 
             <a
