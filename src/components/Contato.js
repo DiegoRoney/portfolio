@@ -52,10 +52,13 @@ function Contato() {
         <form className="form" onSubmit={sendEmail}>
           <h2 className="title text-center">Contato</h2>
           <p>
-          <span> Vamos desenvolver algo novo juntos. </span> Conecte-se comigo pelo telefone:
-            <strong> 77 99202-8886 </strong>
-            ou e-mail: <strong> diego-roney@outlook.com </strong>
+            Vamos embarcar juntos em uma jornada de desenvolvimento inovador!
+            Conecte-se comigo por telefone, através do número:{" "}
+            <span>77 99202-8886</span>, ou por e-mail, enviando uma mensagem
+            para <span>diego-roney@outlook.com</span>. Estou ansioso para
+            colaborar com você e criar algo incrível!
           </p>
+
           <p>Ou me envie uma mensagem!</p>
 
           <input
