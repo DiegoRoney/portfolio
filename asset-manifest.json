@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6322c41e.css",
-    "main.js": "/portfolio/static/js/main.af63d4ad.js",
+    "main.css": "/portfolio/static/css/main.739628b9.css",
+    "main.js": "/portfolio/static/js/main.5933d820.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio/static/js/787.aeca62f9.chunk.js",
     "static/media/gamer.mp4": "/portfolio/static/media/gamer.c1bd02724d1ab504abaf.mp4",
     "static/media/comp.jpg": "/portfolio/static/media/comp.5fe8bd6f05922caff8a3.jpg",
@@ -23,13 +23,14 @@
     "static/media/icon-instagram.png": "/portfolio/static/media/icon-instagram.35edd2e8ed8f381779c8.png",
     "static/media/icon-in.png": "/portfolio/static/media/icon-in.661c7495e6549f14495c.png",
     "static/media/diego-inc.png": "/portfolio/static/media/diego-inc.185612013e5d3f67f6e6.png",
+    "static/media/premiere.png": "/portfolio/static/media/premiere.3a0824fc7814d482a19c.png",
     "index.html": "/portfolio/index.html",
-    "main.6322c41e.css.map": "/portfolio/static/css/main.6322c41e.css.map",
-    "main.af63d4ad.js.map": "/portfolio/static/js/main.af63d4ad.js.map",
+    "main.739628b9.css.map": "/portfolio/static/css/main.739628b9.css.map",
+    "main.5933d820.js.map": "/portfolio/static/js/main.5933d820.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6322c41e.css",
-    "static/js/main.af63d4ad.js"
+    "static/css/main.739628b9.css",
+    "static/js/main.5933d820.js"
   ]
 }
