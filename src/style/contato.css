@@ -64,7 +64,10 @@ textarea:focus {
 
 .msg-send h3 {
   margin-top: 30px;
-  color: #FF4B2B;
+  color: #00ca22;
+  border: 1px solid green;
+  border-radius: 4px;
+  padding: 5px;
 }
 
 .contato span{

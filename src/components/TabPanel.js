@@ -15,6 +15,7 @@ import logo5 from "../img/icons/css3.png";
 import logo6 from "../img/icons/bootstrap.png";
 import logo7 from "../img/icons/photoshop.png";
 import logo8 from "../img/icons/illustrator.png";
+import logo9 from "../img/icons/premiere.png"
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -125,6 +126,11 @@ export default function BasicTabs() {
               <img src={logo8} alt="logo" />
               <br></br>
               Illustrator
+            </div>
+            <div className="skills">
+              <img src={logo9} alt="logo" />
+              <br></br>
+              Premiere pro
             </div>
           </div>
         </div>
