@@ -48,7 +48,7 @@ function Footer() {
           {/* In */}
           <a
             className="links-redes"
-            href="https://github.com/DiegoRoney"
+            href="https://www.linkedin.com/in/diego-roney/"
             target="_black"
           >
             <img src={iconIn} alt="logo" />
