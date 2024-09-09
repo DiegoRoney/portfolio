@@ -106,7 +106,7 @@ function Footer() {
 
       <div className="container-copyright">
         <p>
-          <a href="#hero">© 2023 Copyright: Diego</a>
+          <a href="#hero">© 2024 Copyright: Diego</a>
         </p>
 
         <div className="up-page">
