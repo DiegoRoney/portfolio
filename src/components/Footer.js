@@ -90,7 +90,7 @@ function Footer() {
 
         <div className="container-colunas-item">
           <h5>CONTATO</h5>
-          <p>Brasil - Condeúba - BA</p>
+           
           <p>diego-roney@hotmail.com</p>
           <p>diego-roney@outlook.com</p>
         </div>
